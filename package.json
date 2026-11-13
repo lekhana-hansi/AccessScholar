@@ -1,0 +1,26 @@
+{
+  "name": "accessscholar",
+  "version": "1.0.0",
+  "description": "AccessScholar – Scholarship Discovery & Accessibility Platform",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node --watch backend/server.js",
+    "test": "npm test --workspace=accessscholar-backend",
+    "db:migrate": "npm run db:migrate --workspace=accessscholar-backend",
+    "worker": "npm run worker --workspace=accessscholar-backend",
+    "worker:once": "npm run worker:once --workspace=accessscholar-backend"
+  },
+  "keywords": [
+    "scholarships",
+    "accessibility",
+    "education",
+    "express",
+    "chrome-extension"
+  ],
+  "author": "AccessScholar Team",
+  "license": "MIT",
+  "workspaces": [
+    "backend"
+  ]
+}

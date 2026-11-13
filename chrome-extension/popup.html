@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AccessScholar Accessibility</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="popup-shell">
+      <header>
+        <div class="brand-row">
+          <div class="brand-mark" aria-hidden="true">A</div>
+          <div><h1>AccessScholar</h1><p>Accessibility tools</p></div>
+        </div>
+      </header>
+      <main class="tool-list" aria-label="Page accessibility controls">
+        <button type="button" class="tool-btn" data-action="dark-mode" aria-pressed="false">Dark mode</button>
+        <button type="button" class="tool-btn" data-action="high-contrast" aria-pressed="false">High contrast</button>
+        <button type="button" class="tool-btn" data-action="font-increase" aria-label="Increase text size">Text +</button>
+        <button type="button" class="tool-btn" data-action="font-decrease" aria-label="Decrease text size">Text -</button>
+        <button type="button" class="tool-btn" data-action="dyslexia-font" aria-pressed="false">Dyslexia font</button>
+        <button type="button" class="tool-btn" data-action="highlight-links" aria-pressed="false">Highlight links</button>
+        <button type="button" class="tool-btn" data-action="read-mode" aria-pressed="false">Reading mode</button>
+        <button type="button" class="tool-btn" data-action="reading-ruler" aria-pressed="false">Reading ruler</button>
+        <button type="button" class="tool-btn" data-action="large-cursor" aria-pressed="false">Large cursor</button>
+        <button type="button" class="tool-btn" data-action="reduce-motion" aria-pressed="false">Reduce motion</button>
+        <button type="button" class="tool-btn" data-action="read-aloud">Read page</button>
+        <button type="button" class="tool-btn" data-action="pause-aloud">Pause speech</button>
+        <button type="button" class="tool-btn" data-action="resume-aloud">Resume speech</button>
+        <button type="button" class="tool-btn" data-action="stop-aloud">Stop speech</button>
+        <label class="speech-speed" for="speechSpeed">Speech speed
+          <select id="speechSpeed"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="2">2×</option></select>
+        </label>
+        <button type="button" class="tool-btn reset" data-action="reset">Reset all</button>
+      </main>
+      <p id="extensionStatus" role="status" aria-live="polite"></p>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

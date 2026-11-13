@@ -1,0 +1,90 @@
+html {
+  font-size: var(--accessscholar-font-scale, 100%);
+}
+
+body.accessscholar-dark {
+  background: #111a24 !important;
+  color: #edf2f7 !important;
+}
+
+body.accessscholar-dark * {
+  color: inherit !important;
+  background-color: transparent !important;
+  border-color: #52677d;
+}
+
+body.accessscholar-dark input,
+body.accessscholar-dark textarea,
+body.accessscholar-dark select,
+body.accessscholar-dark button {
+  background-color: #263445 !important;
+  color: #edf2f7 !important;
+  border-color: #8496a8 !important;
+}
+
+body.accessscholar-high-contrast {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+body.accessscholar-high-contrast * {
+  color: #fff !important;
+  background-color: #000 !important;
+  border-color: #fff !important;
+}
+
+body.accessscholar-high-contrast a {
+  color: #ffeb3b !important;
+  text-decoration: underline !important;
+}
+
+body.accessscholar-dyslexia-font,
+body.accessscholar-dyslexia-font * {
+  font-family: "Atkinson Hyperlegible", Arial, sans-serif !important;
+  letter-spacing: 0.02em !important;
+}
+
+body.accessscholar-highlight-links a {
+  background: #fff8a0 !important;
+  color: #111 !important;
+  outline: 2px solid #111 !important;
+  outline-offset: 2px !important;
+  text-decoration: underline !important;
+}
+
+body.accessscholar-read-mode {
+  max-width: 1000px !important;
+  margin: 0 auto !important;
+  padding: 1.5rem !important;
+  line-height: 1.8 !important;
+}
+
+body.accessscholar-large-cursor,
+body.accessscholar-large-cursor * {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cpath d='M8 3v34l9-9 7 15 7-3-7-15h14z' fill='black' stroke='white' stroke-width='3'/%3E%3C/svg%3E") 8 3, auto !important;
+}
+
+body.accessscholar-reduce-motion *,
+body.accessscholar-reduce-motion *::before,
+body.accessscholar-reduce-motion *::after {
+  scroll-behavior: auto !important;
+  animation: none !important;
+  transition: none !important;
+}
+
+.accessscholar-reading-ruler {
+  position: fixed !important;
+  z-index: 2147483647 !important;
+  top: 50% !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 3rem !important;
+  border-block: 2px solid #f2b84b !important;
+  background: rgb(255 234 164 / 22%) !important;
+  pointer-events: none !important;
+  transform: translateY(-50%) !important;
+}
+
+.accessscholar-reading-ruler[hidden] {
+  display: none !important;
+}

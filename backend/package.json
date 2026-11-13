@@ -1,0 +1,20 @@
+{
+  "name": "accessscholar-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AccessScholar scholarship API and static frontend server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "db:migrate": "node database/migrate.js",
+    "worker": "node worker.js",
+    "worker:once": "node worker.js --once",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^4.21.2",
+    "pg": "^8.23.1"
+  }
+}

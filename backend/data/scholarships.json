@@ -1,0 +1,4117 @@
+{
+  "scholarships": [
+    {
+      "scholarshipId": "india-aicte-saksham-degree",
+      "sourceRecordId": "aicte-saksham-deg-2026",
+      "scholarshipName": "AICTE Saksham Scholarship Scheme for Specially-Abled Students (Degree)",
+      "providerName": "All India Council for Technical Education (AICTE)",
+      "providerLogoUrl": null,
+      "description": "The AICTE Saksham Scholarship Scheme provides financial assistance to specially-abled students with disability of not less than 40% pursuing first year of technical degree programmes in AICTE-approved institutions.",
+      "eligibilityDetails": "Student must have a certified disability of 40% or more (UDID certificate). Admitted to 1st year of technical degree course in an AICTE approved institution. Family income from all sources must not exceed INR 8 Lakh per annum.",
+      "scholarshipCategory": "Disability Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "undergraduate"
+      ],
+      "eligibleSubjects": [
+        "Engineering",
+        "Technology",
+        "Architecture",
+        "Pharmacy",
+        "Applied Arts"
+      ],
+      "applicantNationalities": [
+        "IN"
+      ],
+      "eligibleResidenceCountries": [
+        "IN"
+      ],
+      "studyDestinationCountries": [
+        "IN"
+      ],
+      "disabilityEligibility": "disability_specific",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Intellectual disability",
+        "Other eligible disabilities"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "12th Standard",
+          "Higher Secondary"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": 800000,
+        "currency": "INR",
+        "financialNeedRequired": true
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": true,
+      "awardAmount": 50000,
+      "currency": "INR",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-07-15",
+      "applicationDeadline": "2026-12-31",
+      "deadlineTimezone": "Asia/Kolkata",
+      "officialSourceUrl": "https://www.aicte-india.org/schemes/students-development-schemes/Saksham-Scholarship-Scheme",
+      "officialApplicationUrl": "https://scholarships.gov.in/",
+      "sourceId": "india-aicte",
+      "sourceIds": [
+        "india-aicte",
+        "india-national-scholarship-portal"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "india-aicte-saksham-diploma",
+      "sourceRecordId": "aicte-saksham-dip-2026",
+      "scholarshipName": "AICTE Saksham Scholarship Scheme for Specially-Abled Students (Diploma)",
+      "providerName": "All India Council for Technical Education (AICTE)",
+      "providerLogoUrl": null,
+      "description": "Financial assistance for specially-abled students with not less than 40% disability admitted to the 1st year of a technical diploma course in an AICTE approved institution.",
+      "eligibilityDetails": "Differently-abled students with >= 40% benchmark disability admitted into AICTE-approved diploma programmes. Annual family income must not exceed INR 8 Lakh.",
+      "scholarshipCategory": "Disability Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "diploma"
+      ],
+      "eligibleSubjects": [
+        "Engineering",
+        "Technology",
+        "Architecture",
+        "Pharmacy"
+      ],
+      "applicantNationalities": [
+        "IN"
+      ],
+      "eligibleResidenceCountries": [
+        "IN"
+      ],
+      "studyDestinationCountries": [
+        "IN"
+      ],
+      "disabilityEligibility": "disability_specific",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Intellectual disability"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "10th Standard",
+          "Secondary School Certificate"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": 800000,
+        "currency": "INR",
+        "financialNeedRequired": true
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": true,
+      "awardAmount": 50000,
+      "currency": "INR",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-07-15",
+      "applicationDeadline": "2026-12-31",
+      "deadlineTimezone": "Asia/Kolkata",
+      "officialSourceUrl": "https://www.aicte-india.org/schemes/students-development-schemes/Saksham-Scholarship-Scheme",
+      "officialApplicationUrl": "https://scholarships.gov.in/",
+      "sourceId": "india-aicte",
+      "sourceIds": [
+        "india-aicte",
+        "india-national-scholarship-portal"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "india-aicte-pragati-degree",
+      "sourceRecordId": "aicte-pragati-deg-2026",
+      "scholarshipName": "AICTE Pragati Scholarship Scheme for Girl Students (Degree)",
+      "providerName": "All India Council for Technical Education (AICTE)",
+      "providerLogoUrl": null,
+      "description": "AICTE scheme aimed at empowering young women by providing financial aid for technical degree education. Up to two girl children per family are eligible.",
+      "eligibilityDetails": "Open exclusively to female students admitted to the first year of degree level course in AICTE approved institutions. Family income must be less than INR 8 Lakh per annum.",
+      "scholarshipCategory": "Government",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "undergraduate"
+      ],
+      "eligibleSubjects": [
+        "Engineering",
+        "Technology",
+        "Architecture",
+        "Pharmacy",
+        "Applied Arts"
+      ],
+      "applicantNationalities": [
+        "IN"
+      ],
+      "eligibleResidenceCountries": [
+        "IN"
+      ],
+      "studyDestinationCountries": [
+        "IN"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "12th Standard"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": 800000,
+        "currency": "INR",
+        "financialNeedRequired": true
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "female",
+      "financialNeedRequired": true,
+      "awardAmount": 50000,
+      "currency": "INR",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-07-15",
+      "applicationDeadline": "2026-12-31",
+      "deadlineTimezone": "Asia/Kolkata",
+      "officialSourceUrl": "https://www.aicte-india.org/schemes/students-development-schemes/Pragati-Scholarship-Scheme",
+      "officialApplicationUrl": "https://scholarships.gov.in/",
+      "sourceId": "india-aicte",
+      "sourceIds": [
+        "india-aicte",
+        "india-national-scholarship-portal"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "india-aicte-swanath-scheme",
+      "sourceRecordId": "aicte-swanath-2026",
+      "scholarshipName": "AICTE Swanath Scholarship Scheme",
+      "providerName": "All India Council for Technical Education (AICTE)",
+      "providerLogoUrl": null,
+      "description": "AICTE Swanath scheme supports orphans, children whose both parents died due to COVID-19, and wards of Armed Forces and Central Paramilitary Forces personnel martyred in action.",
+      "eligibilityDetails": "Candidate must be an orphan, or lost both parents during COVID-19, or ward of Armed Forces/Paramilitary personnel martyred in action. Studying in AICTE-approved degree or diploma institution.",
+      "scholarshipCategory": "Government",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "undergraduate",
+        "diploma"
+      ],
+      "eligibleSubjects": [
+        "Engineering",
+        "Technology",
+        "Management",
+        "Architecture",
+        "Pharmacy"
+      ],
+      "applicantNationalities": [
+        "IN"
+      ],
+      "eligibleResidenceCountries": [
+        "IN"
+      ],
+      "studyDestinationCountries": [
+        "IN"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "10th Standard",
+          "12th Standard"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": 800000,
+        "currency": "INR",
+        "financialNeedRequired": true
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": true,
+      "awardAmount": 50000,
+      "currency": "INR",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-07-15",
+      "applicationDeadline": "2026-12-31",
+      "deadlineTimezone": "Asia/Kolkata",
+      "officialSourceUrl": "https://www.aicte-india.org/schemes/students-development-schemes/Swanath-Scholarship-Scheme",
+      "officialApplicationUrl": "https://scholarships.gov.in/",
+      "sourceId": "india-aicte",
+      "sourceIds": [
+        "india-aicte",
+        "india-national-scholarship-portal"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "india-depwd-post-matric-disabilities",
+      "sourceRecordId": "depwd-post-matric-2026",
+      "scholarshipName": "Post-Matric Scholarship for Students with Disabilities",
+      "providerName": "Department of Empowerment of Persons with Disabilities (DEPwD)",
+      "providerLogoUrl": null,
+      "description": "Central Sector scheme under Ministry of Social Justice and Empowerment offering maintenance allowance, disability allowance, and book grants for higher education students with disabilities.",
+      "eligibilityDetails": "Must possess a valid UDID card with 40% or more benchmark disability. Enrolled in post-matriculation courses (Class 11 to Post-Graduate degree/diploma) in recognized institutions. Annual parental income must not exceed INR 2.50 Lakh.",
+      "scholarshipCategory": "Disability Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "school",
+        "undergraduate",
+        "postgraduate",
+        "diploma"
+      ],
+      "eligibleSubjects": [
+        "All subjects",
+        "General",
+        "Professional",
+        "Technical"
+      ],
+      "applicantNationalities": [
+        "IN"
+      ],
+      "eligibleResidenceCountries": [
+        "IN"
+      ],
+      "studyDestinationCountries": [
+        "IN"
+      ],
+      "disabilityEligibility": "disability_specific",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Intellectual disability",
+        "Learning disability",
+        "Other eligible disabilities"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "10th Standard",
+          "Secondary School"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": 250000,
+        "currency": "INR",
+        "financialNeedRequired": true
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": true,
+      "awardAmount": 48000,
+      "currency": "INR",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-07-01",
+      "applicationDeadline": "2026-12-31",
+      "deadlineTimezone": "Asia/Kolkata",
+      "officialSourceUrl": "https://depwd.gov.in/",
+      "officialApplicationUrl": "https://scholarships.gov.in/",
+      "sourceId": "india-depwd-schemes",
+      "sourceIds": [
+        "india-depwd-schemes",
+        "india-national-scholarship-portal"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "india-depwd-pre-matric-disabilities",
+      "sourceRecordId": "depwd-pre-matric-2026",
+      "scholarshipName": "Pre-Matric Scholarship for Students with Disabilities",
+      "providerName": "Department of Empowerment of Persons with Disabilities (DEPwD)",
+      "providerLogoUrl": null,
+      "description": "Central Sector scheme providing financial assistance to school students with disabilities in Class 9 and 10 to reduce drop-out rates.",
+      "eligibilityDetails": "Students with >= 40% certified disability studying in Class 9th or 10th in a government or government-recognized school. Annual family income must not exceed INR 2.50 Lakh.",
+      "scholarshipCategory": "Disability Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "school"
+      ],
+      "eligibleSubjects": [
+        "School Education"
+      ],
+      "applicantNationalities": [
+        "IN"
+      ],
+      "eligibleResidenceCountries": [
+        "IN"
+      ],
+      "studyDestinationCountries": [
+        "IN"
+      ],
+      "disabilityEligibility": "disability_specific",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Intellectual disability",
+        "Learning disability"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "Class 8 pass"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": 250000,
+        "currency": "INR",
+        "financialNeedRequired": true
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": true,
+      "awardAmount": 12000,
+      "currency": "INR",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-07-01",
+      "applicationDeadline": "2026-12-31",
+      "deadlineTimezone": "Asia/Kolkata",
+      "officialSourceUrl": "https://depwd.gov.in/",
+      "officialApplicationUrl": "https://scholarships.gov.in/",
+      "sourceId": "india-depwd-schemes",
+      "sourceIds": [
+        "india-depwd-schemes",
+        "india-national-scholarship-portal"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "india-depwd-national-fellowship-pwd",
+      "sourceRecordId": "depwd-nfpwd-2026",
+      "scholarshipName": "National Fellowship for Persons with Disabilities (NFPwD)",
+      "providerName": "Department of Empowerment of Persons with Disabilities & UGC",
+      "providerLogoUrl": null,
+      "description": "Prestigious fellowship providing 200 annual awards for students with disabilities pursuing full-time M.Phil and Ph.D. degrees in Indian universities and research institutes.",
+      "eligibilityDetails": "Candidate must have >= 40% disability and must have qualified the UGC-NET or CSIR-NET examination and secured admission in regular full-time Ph.D./M.Phil programmes.",
+      "scholarshipCategory": "Research Funding",
+      "scholarshipType": "Research Fellowship",
+      "studyLevels": [
+        "phd",
+        "research"
+      ],
+      "eligibleSubjects": [
+        "Humanities",
+        "Social Sciences",
+        "Sciences",
+        "Engineering",
+        "Technology"
+      ],
+      "applicantNationalities": [
+        "IN"
+      ],
+      "eligibleResidenceCountries": [
+        "IN"
+      ],
+      "studyDestinationCountries": [
+        "IN"
+      ],
+      "disabilityEligibility": "disability_specific",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Intellectual disability",
+        "Other eligible disabilities"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "Master's Degree",
+          "Postgraduate"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "INR",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 444000,
+      "currency": "INR",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-08-01",
+      "applicationDeadline": "2027-01-31",
+      "deadlineTimezone": "Asia/Kolkata",
+      "officialSourceUrl": "https://depwd.gov.in/",
+      "officialApplicationUrl": "https://scholarships.gov.in/",
+      "sourceId": "india-depwd-schemes",
+      "sourceIds": [
+        "india-depwd-schemes",
+        "india-ugc"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "india-pmrf-research-fellowship",
+      "sourceRecordId": "pmrf-fellowship-2026",
+      "scholarshipName": "Prime Minister's Research Fellows (PMRF) Scheme",
+      "providerName": "Ministry of Education, Government of India",
+      "providerLogoUrl": null,
+      "description": "The PMRF scheme offers highest-tier doctoral fellowships for top talent in Science and Technology in IITs, IISc Bangalore, and central research universities.",
+      "eligibilityDetails": "B.Tech/M.Sc/M.Tech graduates with CGPA of 8.0 or higher from recognized institutions, or valid GATE score of 650 or higher. Enrolled in doctoral programme at PMRF-granting institute.",
+      "scholarshipCategory": "Research Funding",
+      "scholarshipType": "Research Fellowship",
+      "studyLevels": [
+        "phd",
+        "research"
+      ],
+      "eligibleSubjects": [
+        "Science",
+        "Technology",
+        "Engineering",
+        "Mathematics",
+        "Computer Science"
+      ],
+      "applicantNationalities": [
+        "IN"
+      ],
+      "eligibleResidenceCountries": [
+        "IN"
+      ],
+      "studyDestinationCountries": [
+        "IN"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Bachelor's Degree",
+          "Master's Degree"
+        ],
+        "minimumGpa": 8
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "INR",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": 35
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 960000,
+      "currency": "INR",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-06-01",
+      "applicationDeadline": "2026-12-15",
+      "deadlineTimezone": "Asia/Kolkata",
+      "officialSourceUrl": "https://www.pmrf.in/",
+      "officialApplicationUrl": "https://www.pmrf.in/",
+      "sourceId": "india-pmrf",
+      "sourceIds": [
+        "india-pmrf"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "india-central-sector-scheme-higher-education",
+      "sourceRecordId": "nsp-css-higher-ed-2026",
+      "scholarshipName": "Central Sector Scheme of Scholarship for College and University Students",
+      "providerName": "Department of Higher Education, Ministry of Education",
+      "providerLogoUrl": null,
+      "description": "Merit-cum-means scholarship for top-percentile students who have completed Class 12 pursuing regular graduate and post-graduate studies.",
+      "eligibilityDetails": "Students who are above 80th percentile of successful candidates in relevant stream from respective board of examination in Class 12. Gross family income up to INR 4.50 Lakh per annum.",
+      "scholarshipCategory": "Merit-Based",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "undergraduate",
+        "postgraduate"
+      ],
+      "eligibleSubjects": [
+        "All regular degree programmes",
+        "Arts",
+        "Science",
+        "Commerce",
+        "Engineering",
+        "Medicine"
+      ],
+      "applicantNationalities": [
+        "IN"
+      ],
+      "eligibleResidenceCountries": [
+        "IN"
+      ],
+      "studyDestinationCountries": [
+        "IN"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Class 12th Board Examination (Above 80th percentile)"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": 450000,
+        "currency": "INR",
+        "financialNeedRequired": true
+      },
+      "ageRequirements": {
+        "minimum": 17,
+        "maximum": 25
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": true,
+      "awardAmount": 20000,
+      "currency": "INR",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-07-01",
+      "applicationDeadline": "2026-12-31",
+      "deadlineTimezone": "Asia/Kolkata",
+      "officialSourceUrl": "https://scholarships.gov.in/",
+      "officialApplicationUrl": "https://scholarships.gov.in/",
+      "sourceId": "india-national-scholarship-portal",
+      "sourceIds": [
+        "india-national-scholarship-portal"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "india-ishan-uday-scholarship-ner",
+      "sourceRecordId": "ugc-ishan-uday-2026",
+      "scholarshipName": "Ishan Uday Special Scholarship Scheme for North Eastern Region",
+      "providerName": "University Grants Commission (UGC)",
+      "providerLogoUrl": null,
+      "description": "UGC special scholarship scheme to promote higher education among students from the North Eastern states of India.",
+      "eligibilityDetails": "Domicile of North Eastern states (NER) passed Class 12 or equivalent. Admitted into first year of any general, technical or professional degree course. Family income below INR 4.50 Lakh.",
+      "scholarshipCategory": "Government",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "undergraduate"
+      ],
+      "eligibleSubjects": [
+        "General Degrees",
+        "Technical Degrees",
+        "Medical",
+        "Paramedical"
+      ],
+      "applicantNationalities": [
+        "IN"
+      ],
+      "eligibleResidenceCountries": [
+        "IN"
+      ],
+      "studyDestinationCountries": [
+        "IN"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Class 12th pass from NER board"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": 450000,
+        "currency": "INR",
+        "financialNeedRequired": true
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": true,
+      "awardAmount": 93600,
+      "currency": "INR",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-07-01",
+      "applicationDeadline": "2026-12-31",
+      "deadlineTimezone": "Asia/Kolkata",
+      "officialSourceUrl": "https://www.ugc.gov.in/",
+      "officialApplicationUrl": "https://scholarships.gov.in/",
+      "sourceId": "india-ugc",
+      "sourceIds": [
+        "india-ugc",
+        "india-national-scholarship-portal"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "india-top-class-education-sc-students",
+      "sourceRecordId": "nsp-top-class-sc-2026",
+      "scholarshipName": "Top Class Education Scheme for SC Students",
+      "providerName": "Ministry of Social Justice and Empowerment",
+      "providerLogoUrl": null,
+      "description": "Central Sector scheme covering full tuition, living expenses, and computer allowances for Scheduled Caste students admitted to notified premier institutes (IITs, IIMs, NITs, NLUs, AIIMS).",
+      "eligibilityDetails": "Scheduled Caste student admitted to an empaneled top institution. Total annual family income from all sources must not exceed INR 8.00 Lakh.",
+      "scholarshipCategory": "Government",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "undergraduate",
+        "postgraduate"
+      ],
+      "eligibleSubjects": [
+        "Engineering",
+        "Medicine",
+        "Law",
+        "Management",
+        "Design"
+      ],
+      "applicantNationalities": [
+        "IN"
+      ],
+      "eligibleResidenceCountries": [
+        "IN"
+      ],
+      "studyDestinationCountries": [
+        "IN"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "12th Standard or Bachelor's admission into empaneled institute"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": 800000,
+        "currency": "INR",
+        "financialNeedRequired": true
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": true,
+      "awardAmount": 222000,
+      "currency": "INR",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-07-01",
+      "applicationDeadline": "2026-12-31",
+      "deadlineTimezone": "Asia/Kolkata",
+      "officialSourceUrl": "https://scholarships.gov.in/",
+      "officialApplicationUrl": "https://scholarships.gov.in/",
+      "sourceId": "india-national-scholarship-portal",
+      "sourceIds": [
+        "india-national-scholarship-portal"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "india-dst-inspire-scholarship-she",
+      "sourceRecordId": "dst-inspire-she-2026",
+      "scholarshipName": "INSPIRE Scholarship for Higher Education (SHE)",
+      "providerName": "Department of Science and Technology (DST)",
+      "providerLogoUrl": null,
+      "description": "DST scheme to attract talented youth to study basic and natural sciences at undergraduate and master levels with handsome mentorship and research components.",
+      "eligibilityDetails": "Top 1% in Class 12 board examinations enrolled in natural and basic sciences (B.Sc., B.S., Int. M.Sc.), or top 10,000 ranks in JEE / NEET joining basic science degrees.",
+      "scholarshipCategory": "Merit-Based",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "undergraduate",
+        "postgraduate"
+      ],
+      "eligibleSubjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Biology",
+        "Earth Science",
+        "Statistics"
+      ],
+      "applicantNationalities": [
+        "IN"
+      ],
+      "eligibleResidenceCountries": [
+        "IN"
+      ],
+      "studyDestinationCountries": [
+        "IN"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Class 12th Board top 1% percentile"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "INR",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": 17,
+        "maximum": 22
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 80000,
+      "currency": "INR",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-09-01",
+      "applicationDeadline": "2027-01-15",
+      "deadlineTimezone": "Asia/Kolkata",
+      "officialSourceUrl": "https://online-inspire.gov.in/",
+      "officialApplicationUrl": "https://online-inspire.gov.in/",
+      "sourceId": "india-dst-inspire",
+      "sourceIds": [
+        "india-dst-inspire"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "india-national-overseas-scholarship-msje",
+      "sourceRecordId": "msje-nos-2026",
+      "scholarshipName": "National Overseas Scholarship for SC, De-notified Nomadic Tribes and Landless Agricultural Labourers",
+      "providerName": "Ministry of Social Justice and Empowerment, Government of India",
+      "providerLogoUrl": null,
+      "description": "Centrally sponsored prestigious scholarship enabling low-income Indian students to pursue Master's and Ph.D. degrees in top international universities worldwide.",
+      "eligibilityDetails": "Belonging to SC, DNT, or traditional artisan families. Must have secured unconditional admission to a university ranked in top 500 QS world rankings. Total family income must not exceed INR 8.00 Lakh per annum. Age below 35 years.",
+      "scholarshipCategory": "International Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "master",
+        "phd"
+      ],
+      "eligibleSubjects": [
+        "Science",
+        "Engineering",
+        "Technology",
+        "Medicine",
+        "Management",
+        "Humanities",
+        "Social Sciences"
+      ],
+      "applicantNationalities": [
+        "IN"
+      ],
+      "eligibleResidenceCountries": [
+        "IN"
+      ],
+      "studyDestinationCountries": [
+        "US",
+        "GB",
+        "AU",
+        "CA",
+        "DE"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Bachelor's Degree for Master's",
+          "Master's Degree for PhD (Minimum 60% marks)"
+        ],
+        "minimumGpa": 3
+      },
+      "incomeRequirements": {
+        "maximum": 800000,
+        "currency": "INR",
+        "financialNeedRequired": true
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": 35
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": true,
+      "awardAmount": 2500000,
+      "currency": "INR",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-02-15",
+      "applicationDeadline": "2027-03-31",
+      "deadlineTimezone": "Asia/Kolkata",
+      "officialSourceUrl": "https://nosmsje.gov.in/",
+      "officialApplicationUrl": "https://nosmsje.gov.in/",
+      "sourceId": "india-nos-msje",
+      "sourceIds": [
+        "india-nos-msje"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "india-ugc-net-junior-research-fellowship",
+      "sourceRecordId": "ugc-net-jrf-2026",
+      "scholarshipName": "UGC Junior Research Fellowship (JRF) in Humanities and Social Sciences",
+      "providerName": "University Grants Commission (UGC)",
+      "providerLogoUrl": null,
+      "description": "National level fellowship for candidates qualifying the National Eligibility Test (NET) for doctoral research across Indian universities and colleges.",
+      "eligibilityDetails": "Postgraduate degree with minimum 55% marks (50% for SC/ST/PwD/OBC-NCL). Qualified UGC-NET JRF within the prescribed age limit (30 years for general, relaxation for reserved categories and women).",
+      "scholarshipCategory": "Research Funding",
+      "scholarshipType": "Research Fellowship",
+      "studyLevels": [
+        "phd",
+        "research"
+      ],
+      "eligibleSubjects": [
+        "Humanities",
+        "Social Sciences",
+        "Languages",
+        "Commerce",
+        "Economics",
+        "Education"
+      ],
+      "applicantNationalities": [
+        "IN"
+      ],
+      "eligibleResidenceCountries": [
+        "IN"
+      ],
+      "studyDestinationCountries": [
+        "IN"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Intellectual disability"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "Master's Degree with at least 55% marks"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "INR",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": 30
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 444000,
+      "currency": "INR",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-09-01",
+      "applicationDeadline": "2027-01-10",
+      "deadlineTimezone": "Asia/Kolkata",
+      "officialSourceUrl": "https://www.ugc.gov.in/",
+      "officialApplicationUrl": "https://ugcnet.nta.ac.in/",
+      "sourceId": "india-ugc",
+      "sourceIds": [
+        "india-ugc"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "india-post-matric-scholarship-minorities",
+      "sourceRecordId": "nsp-post-matric-minority-2026",
+      "scholarshipName": "Post Matric Scholarships Scheme for Minorities",
+      "providerName": "Ministry of Minority Affairs",
+      "providerLogoUrl": null,
+      "description": "Empowers students from notified minority communities (Muslims, Christians, Sikhs, Buddhists, Jains, Parsis) pursuing higher secondary and university education.",
+      "eligibilityDetails": "Notified minority community members who secured not less than 50% marks in the previous final examination. Annual family income not exceeding INR 2.00 Lakh.",
+      "scholarshipCategory": "Government",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "school",
+        "undergraduate",
+        "postgraduate",
+        "diploma"
+      ],
+      "eligibleSubjects": [
+        "All recognized courses"
+      ],
+      "applicantNationalities": [
+        "IN"
+      ],
+      "eligibleResidenceCountries": [
+        "IN"
+      ],
+      "studyDestinationCountries": [
+        "IN"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Previous qualifying examination with >= 50% marks"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": 200000,
+        "currency": "INR",
+        "financialNeedRequired": true
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": true,
+      "awardAmount": 10000,
+      "currency": "INR",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-07-01",
+      "applicationDeadline": "2026-12-31",
+      "deadlineTimezone": "Asia/Kolkata",
+      "officialSourceUrl": "https://scholarships.gov.in/",
+      "officialApplicationUrl": "https://scholarships.gov.in/",
+      "sourceId": "india-national-scholarship-portal",
+      "sourceIds": [
+        "india-national-scholarship-portal"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "usa-fulbright-foreign-student-program",
+      "sourceRecordId": "fulbright-fsp-2027",
+      "scholarshipName": "Fulbright Foreign Student Program",
+      "providerName": "U.S. Department of State, Bureau of Educational and Cultural Affairs",
+      "providerLogoUrl": null,
+      "description": "The flagship international educational exchange program sponsored by the U.S. government, bringing graduate students, young professionals and artists from abroad to study in the United States.",
+      "eligibilityDetails": "Citizens of participating countries who have completed undergraduate education and hold a degree equivalent to a bachelor's degree. Leadership potential and English proficiency required.",
+      "scholarshipCategory": "International Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "master",
+        "phd"
+      ],
+      "eligibleSubjects": [
+        "All disciplines except clinical medicine"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "AU",
+        "GB",
+        "CA",
+        "DE",
+        "FR",
+        "NL",
+        "FI",
+        "SE",
+        "IE",
+        "NZ",
+        "JP",
+        "KR",
+        "SG",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "US"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Other eligible disabilities"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "Bachelor's Degree equivalent"
+        ],
+        "minimumGpa": 3
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "USD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": 21,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 45000,
+      "currency": "USD",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-02-01",
+      "applicationDeadline": "2027-05-31",
+      "deadlineTimezone": "America/New_York",
+      "officialSourceUrl": "https://fulbrightprogram.org/",
+      "officialApplicationUrl": "https://foreign.fulbrightonline.org/",
+      "sourceId": "usa-fulbright",
+      "sourceIds": [
+        "usa-fulbright"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "usa-hubert-humphrey-fellowship-program",
+      "sourceRecordId": "humphrey-fellowship-2027",
+      "scholarshipName": "Hubert H. Humphrey Fellowship Program",
+      "providerName": "U.S. Department of State & Institute of International Education",
+      "providerLogoUrl": null,
+      "description": "Provides ten months of non-degree academic study and related professional experiences in the United States for experienced mid-career professionals from designated countries.",
+      "eligibilityDetails": "Mid-career professionals in leadership positions with minimum five years of full-time professional experience, commitment to public service, and demonstrated leadership.",
+      "scholarshipCategory": "International Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "postgraduate",
+        "research"
+      ],
+      "eligibleSubjects": [
+        "Public Policy",
+        "Economic Development",
+        "Public Health",
+        "Education",
+        "Environmental Policy",
+        "Journalism"
+      ],
+      "applicantNationalities": [
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "US"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Undergraduate degree",
+          "5+ years work experience"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "USD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": 28,
+        "maximum": 50
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 50000,
+      "currency": "USD",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-04-01",
+      "applicationDeadline": "2027-06-30",
+      "deadlineTimezone": "America/New_York",
+      "officialSourceUrl": "https://www.humphreyfellowship.org/",
+      "officialApplicationUrl": "https://www.humphreyfellowship.org/",
+      "sourceId": "usa-humphrey",
+      "sourceIds": [
+        "usa-humphrey"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "usa-federal-pell-grant",
+      "sourceRecordId": "fsa-pell-grant-2026",
+      "scholarshipName": "Federal Pell Grant Program",
+      "providerName": "U.S. Department of Education, Federal Student Aid",
+      "providerLogoUrl": null,
+      "description": "Federal need-based grant program providing up to $7,395 per academic year to undergraduate students with exceptional financial need.",
+      "eligibilityDetails": "U.S. citizens or eligible noncitizens enrolled in an undergraduate degree or certificate program at a participating institution, demonstrating exceptional financial need via FAFSA.",
+      "scholarshipCategory": "Need-Based",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "undergraduate"
+      ],
+      "eligibleSubjects": [
+        "All accredited degree programmes"
+      ],
+      "applicantNationalities": [
+        "US"
+      ],
+      "eligibleResidenceCountries": [
+        "US"
+      ],
+      "studyDestinationCountries": [
+        "US"
+      ],
+      "disabilityEligibility": "no_published_restriction",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "High school diploma or GED"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": 60000,
+        "currency": "USD",
+        "financialNeedRequired": true
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": true,
+      "awardAmount": 7395,
+      "currency": "USD",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-10-01",
+      "applicationDeadline": "2027-06-30",
+      "deadlineTimezone": "America/New_York",
+      "officialSourceUrl": "https://studentaid.gov/",
+      "officialApplicationUrl": "https://studentaid.gov/",
+      "sourceId": "usa-federal-student-aid",
+      "sourceIds": [
+        "usa-federal-student-aid"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "usa-paul-daisy-soros-fellowships",
+      "sourceRecordId": "pdsoros-fellowships-2027",
+      "scholarshipName": "The Paul & Daisy Soros Fellowships for New Americans",
+      "providerName": "Paul & Daisy Soros Foundation",
+      "providerLogoUrl": null,
+      "description": "Premier graduate school fellowship for immigrants and children of immigrants in the United States, providing up to $90,000 in funding over two years.",
+      "eligibilityDetails": "Immigrants or children of immigrants (New Americans) aged 30 or younger pursuing full-time graduate degree in any field at an accredited US university.",
+      "scholarshipCategory": "Private Foundation",
+      "scholarshipType": "University Scholarship",
+      "studyLevels": [
+        "master",
+        "phd"
+      ],
+      "eligibleSubjects": [
+        "All academic and professional fields",
+        "Medicine",
+        "Law",
+        "Engineering",
+        "Business",
+        "Humanities"
+      ],
+      "applicantNationalities": [
+        "US",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "US"
+      ],
+      "studyDestinationCountries": [
+        "US"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Bachelor's Degree"
+        ],
+        "minimumGpa": 3.5
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "USD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": 30
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 90000,
+      "currency": "USD",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-04-15",
+      "applicationDeadline": "2026-10-29",
+      "deadlineTimezone": "America/New_York",
+      "officialSourceUrl": "https://www.pdsoros.org/",
+      "officialApplicationUrl": "https://www.pdsoros.org/",
+      "sourceId": "usa-pdsoros",
+      "sourceIds": [
+        "usa-pdsoros"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "usa-lime-connect-fellowship-program",
+      "sourceRecordId": "lime-connect-fellowship-2026",
+      "scholarshipName": "Lime Connect Fellowship Program for Students with Disabilities",
+      "providerName": "Lime Connect Inc.",
+      "providerLogoUrl": null,
+      "description": "Designed for high-achieving university students who have a visible or non-visible disability, providing leadership development, networking with top global corporations, and educational stipend.",
+      "eligibilityDetails": "Current undergraduate sophomore students with a disability (visible or invisible, including mental health conditions and chronic illnesses) studying at an accredited university in the US.",
+      "scholarshipCategory": "Disability Scholarship",
+      "scholarshipType": "International Scholarship",
+      "studyLevels": [
+        "undergraduate"
+      ],
+      "eligibleSubjects": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Finance",
+        "Liberal Arts"
+      ],
+      "applicantNationalities": [
+        "US",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "US"
+      ],
+      "studyDestinationCountries": [
+        "US"
+      ],
+      "disabilityEligibility": "disability_specific",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Intellectual disability",
+        "Learning disability",
+        "Other eligible disabilities"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "Undergraduate student in sophomore year"
+        ],
+        "minimumGpa": 3
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "USD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": 18,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 10000,
+      "currency": "USD",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-01-15",
+      "applicationDeadline": "2027-02-28",
+      "deadlineTimezone": "America/New_York",
+      "officialSourceUrl": "https://www.limeconnect.com/",
+      "officialApplicationUrl": "https://www.limeconnect.com/",
+      "sourceId": "usa-lime-connect",
+      "sourceIds": [
+        "usa-lime-connect"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "usa-aahd-krause-scholarship",
+      "sourceRecordId": "aahd-krause-2026",
+      "scholarshipName": "AAHD Frederick J. Krause Scholarship on Health and Disability",
+      "providerName": "American Association on Health and Disability",
+      "providerLogoUrl": null,
+      "description": "Awarded annually to students with disabilities pursuing undergraduate or graduate studies in health-related fields, disability studies, public health, or rehabilitation.",
+      "eligibilityDetails": "Applicant must have a documented disability as defined by the Americans with Disabilities Act (ADA), enrolled full-time as undergraduate junior/senior or graduate student in an accredited U.S. college.",
+      "scholarshipCategory": "Disability Scholarship",
+      "scholarshipType": "International Scholarship",
+      "studyLevels": [
+        "undergraduate",
+        "postgraduate"
+      ],
+      "eligibleSubjects": [
+        "Health Care",
+        "Public Health",
+        "Disability Studies",
+        "Rehabilitation",
+        "Medicine",
+        "Health Policy"
+      ],
+      "applicantNationalities": [
+        "US"
+      ],
+      "eligibleResidenceCountries": [
+        "US"
+      ],
+      "studyDestinationCountries": [
+        "US"
+      ],
+      "disabilityEligibility": "disability_specific",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Other eligible disabilities"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "Undergraduate junior/senior or graduate student"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "USD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 1000,
+      "currency": "USD",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-09-01",
+      "applicationDeadline": "2027-03-01",
+      "deadlineTimezone": "America/New_York",
+      "officialSourceUrl": "https://aahd.us/",
+      "officialApplicationUrl": "https://aahd.us/",
+      "sourceId": "usa-aahd",
+      "sourceIds": [
+        "usa-aahd"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "usa-microsoft-disability-scholarship",
+      "sourceRecordId": "msft-disability-2026",
+      "scholarshipName": "Microsoft Disability Scholarship",
+      "providerName": "Microsoft Corporation & Lime Connect",
+      "providerLogoUrl": null,
+      "description": "Enables high school seniors living with disabilities to attend undergraduate programmes in technology, engineering, computer science, and business.",
+      "eligibilityDetails": "High school senior with a living disability (visual, hearing, mobility, cognitive, speech or other) planning to enroll in a full-time undergraduate course in technology or engineering.",
+      "scholarshipCategory": "Disability Scholarship",
+      "scholarshipType": "Private Foundation",
+      "studyLevels": [
+        "undergraduate"
+      ],
+      "eligibleSubjects": [
+        "Computer Science",
+        "Computer Engineering",
+        "Information Technology",
+        "Business",
+        "Law"
+      ],
+      "applicantNationalities": [
+        "US",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "US"
+      ],
+      "studyDestinationCountries": [
+        "US"
+      ],
+      "disabilityEligibility": "disability_specific",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Intellectual disability",
+        "Learning disability"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "High school senior",
+          "Minimum cumulative GPA 3.0"
+        ],
+        "minimumGpa": 3
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "USD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": 16,
+        "maximum": 22
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 20000,
+      "currency": "USD",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-11-01",
+      "applicationDeadline": "2027-03-15",
+      "deadlineTimezone": "America/Los_Angeles",
+      "officialSourceUrl": "https://www.limeconnect.com/",
+      "officialApplicationUrl": "https://www.limeconnect.com/",
+      "sourceId": "usa-lime-connect",
+      "sourceIds": [
+        "usa-lime-connect"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "usa-google-student-veterans-scholarship",
+      "sourceRecordId": "google-sva-2026",
+      "scholarshipName": "Google Student Veterans of America Scholarship",
+      "providerName": "Google & Student Veterans of America",
+      "providerLogoUrl": null,
+      "description": "Provides $10,000 scholarship and attendance at Google's annual Scholars' Retreat for student veterans pursuing computer science degrees.",
+      "eligibilityDetails": "Currently enrolled as an undergraduate or graduate student in computer science or related field at an accredited US university with honorable discharge or active duty military status.",
+      "scholarshipCategory": "Private Foundation",
+      "scholarshipType": "University Scholarship",
+      "studyLevels": [
+        "undergraduate",
+        "postgraduate"
+      ],
+      "eligibleSubjects": [
+        "Computer Science",
+        "Computer Engineering",
+        "Software Engineering"
+      ],
+      "applicantNationalities": [
+        "US"
+      ],
+      "eligibleResidenceCountries": [
+        "US"
+      ],
+      "studyDestinationCountries": [
+        "US"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Undergraduate or graduate standing in CS"
+        ],
+        "minimumGpa": 3
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "USD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 10000,
+      "currency": "USD",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-10-01",
+      "applicationDeadline": "2027-04-15",
+      "deadlineTimezone": "America/New_York",
+      "officialSourceUrl": "https://studentaid.gov/",
+      "officialApplicationUrl": "https://studentaid.gov/",
+      "sourceId": "usa-federal-student-aid",
+      "sourceIds": [
+        "usa-federal-student-aid"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "australia-awards-scholarships-dfat",
+      "sourceRecordId": "dfat-aas-2027",
+      "scholarshipName": "Australia Awards Scholarships",
+      "providerName": "Australian Government Department of Foreign Affairs and Trade (DFAT)",
+      "providerLogoUrl": null,
+      "description": "Long-term development awards administered by DFAT. They provide opportunities for people from developing countries, particularly Indo-Pacific region, to undertake full-time undergraduate or postgraduate study at Australian universities.",
+      "eligibilityDetails": "Citizen of an eligible participating country (including India, South Asia, Southeast Asia, Pacific). Minimum 18 years of age. Commits to returning home for at least two years upon completion.",
+      "scholarshipCategory": "International Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "undergraduate",
+        "master",
+        "phd"
+      ],
+      "eligibleSubjects": [
+        "Development",
+        "Public Policy",
+        "Health",
+        "Education",
+        "Engineering",
+        "Agriculture",
+        "Climate Change"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "IN",
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "AU"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Other eligible disabilities"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "Completed secondary or bachelor degree depending on level"
+        ],
+        "minimumGpa": 3
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "AUD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": 18,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 65000,
+      "currency": "AUD",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-02-01",
+      "applicationDeadline": "2027-04-30",
+      "deadlineTimezone": "Australia/Sydney",
+      "officialSourceUrl": "https://www.dfat.gov.au/people-to-people/australia-awards",
+      "officialApplicationUrl": "https://oasis.dfat.gov.au/",
+      "sourceId": "australia-awards",
+      "sourceIds": [
+        "australia-awards"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "australia-research-training-program-rtp",
+      "sourceRecordId": "rtp-stipend-2026",
+      "scholarshipName": "Australian Government Research Training Program (RTP)",
+      "providerName": "Australian Government Department of Education",
+      "providerLogoUrl": null,
+      "description": "Commonwealth-funded Research Training Program providing full tuition offsets and living cost stipends for domestic and international students undertaking Research Doctorate and Research Master degrees.",
+      "eligibilityDetails": "Enrolled or accepted in an accredited Higher Degree by Research (HDR) course at an eligible Australian Higher Education Provider. High academic achievement and research capability.",
+      "scholarshipCategory": "Research Funding",
+      "scholarshipType": "Research Fellowship",
+      "studyLevels": [
+        "master",
+        "phd",
+        "research"
+      ],
+      "eligibleSubjects": [
+        "All research disciplines"
+      ],
+      "applicantNationalities": [
+        "AU",
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "AU"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "First-class Honours or equivalent Master's degree"
+        ],
+        "minimumGpa": 3.5
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "AUD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 37000,
+      "currency": "AUD",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-05-01",
+      "applicationDeadline": "2026-10-31",
+      "deadlineTimezone": "Australia/Canberra",
+      "officialSourceUrl": "https://www.education.gov.au/research-block-grants/research-training-program",
+      "officialApplicationUrl": "https://www.education.gov.au/research-block-grants/research-training-program",
+      "sourceId": "australia-education-rtp",
+      "sourceIds": [
+        "australia-education-rtp"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "australia-melbourne-research-scholarship",
+      "sourceRecordId": "unimelb-mrs-2026",
+      "scholarshipName": "Melbourne Research Scholarships (MRS)",
+      "providerName": "University of Melbourne",
+      "providerLogoUrl": null,
+      "description": "Offered to high-achieving domestic and international research students undertaking graduate research degrees at the University of Melbourne, including full fee offsets and bi-weekly stipends.",
+      "eligibilityDetails": "Applied for and met entry requirements for a graduate research degree at the University of Melbourne. Ranked based on academic achievement in previous studies.",
+      "scholarshipCategory": "University",
+      "scholarshipType": "University Scholarship",
+      "studyLevels": [
+        "master",
+        "phd",
+        "research"
+      ],
+      "eligibleSubjects": [
+        "All university faculties",
+        "Engineering",
+        "Medicine",
+        "Arts",
+        "Science",
+        "Business"
+      ],
+      "applicantNationalities": [
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "AU"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Four-year bachelor degree with first-class honours or equivalent master"
+        ],
+        "minimumGpa": 3.7
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "AUD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 37000,
+      "currency": "AUD",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-01-01",
+      "applicationDeadline": "2026-10-31",
+      "deadlineTimezone": "Australia/Melbourne",
+      "officialSourceUrl": "https://scholarships.unimelb.edu.au/",
+      "officialApplicationUrl": "https://scholarships.unimelb.edu.au/",
+      "sourceId": "australia-unimelb",
+      "sourceIds": [
+        "australia-unimelb"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "australia-sydney-international-student-award",
+      "sourceRecordId": "sydney-isa-2026",
+      "scholarshipName": "Sydney International Student Award",
+      "providerName": "University of Sydney",
+      "providerLogoUrl": null,
+      "description": "Provides a 20 percent contribution towards tuition fees for the duration of the undergraduate or postgraduate coursework degree at the University of Sydney.",
+      "eligibilityDetails": "International student holding citizenship of an eligible regional country (including India, Indonesia, Vietnam, Malaysia). Applying for full-time undergraduate or postgraduate coursework degree.",
+      "scholarshipCategory": "University",
+      "scholarshipType": "University Scholarship",
+      "studyLevels": [
+        "undergraduate",
+        "postgraduate"
+      ],
+      "eligibleSubjects": [
+        "All faculties",
+        "Business",
+        "Engineering",
+        "Arts",
+        "Science",
+        "Architecture"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "AU"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "High school diploma or bachelor degree depending on level"
+        ],
+        "minimumGpa": 3.2
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "AUD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 12000,
+      "currency": "AUD",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-06-01",
+      "applicationDeadline": "2027-01-15",
+      "deadlineTimezone": "Australia/Sydney",
+      "officialSourceUrl": "https://www.sydney.edu.au/scholarships/",
+      "officialApplicationUrl": "https://www.sydney.edu.au/scholarships/",
+      "sourceId": "australia-sydney",
+      "sourceIds": [
+        "australia-sydney"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "australia-anu-chancellors-international-scholarship",
+      "sourceRecordId": "anu-chancellors-2026",
+      "scholarshipName": "ANU Chancellor's International Scholarship",
+      "providerName": "Australian National University (ANU)",
+      "providerLogoUrl": null,
+      "description": "Prestigious award providing 25% or 50% tuition fee reduction to top international undergraduate and postgraduate coursework students at Australia's national university.",
+      "eligibilityDetails": "International student with an active offer of admission at ANU. Assessed automatically based on previous academic qualifications.",
+      "scholarshipCategory": "Merit-Based",
+      "scholarshipType": "University Scholarship",
+      "studyLevels": [
+        "undergraduate",
+        "postgraduate"
+      ],
+      "eligibleSubjects": [
+        "Arts",
+        "Asia & Pacific Studies",
+        "Business & Economics",
+        "Engineering & Computer Science",
+        "Law",
+        "Science"
+      ],
+      "applicantNationalities": [
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "AU"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Top percentile secondary or undergraduate score"
+        ],
+        "minimumGpa": 3.6
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "AUD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 25000,
+      "currency": "AUD",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-06-01",
+      "applicationDeadline": "2026-12-01",
+      "deadlineTimezone": "Australia/Canberra",
+      "officialSourceUrl": "https://www.anu.edu.au/study/scholarships",
+      "officialApplicationUrl": "https://www.anu.edu.au/study/scholarships",
+      "sourceId": "australia-anu",
+      "sourceIds": [
+        "australia-anu"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "australia-awards-fellowships",
+      "sourceRecordId": "dfat-aaf-2026",
+      "scholarshipName": "Australia Awards Fellowships",
+      "providerName": "Australian Government Department of Foreign Affairs and Trade (DFAT)",
+      "providerLogoUrl": null,
+      "description": "Short-term study, research, and professional development fellowship aimed at emerging mid-career leaders and specialists in priority development sectors.",
+      "eligibilityDetails": "Nominated by an Australian host organization in partnership with international counterpart organization in eligible developing countries.",
+      "scholarshipCategory": "International Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "research",
+        "vocational"
+      ],
+      "eligibleSubjects": [
+        "Climate Action",
+        "Health Security",
+        "Digital Transformation",
+        "Economic Growth",
+        "Governance"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "IN",
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "AU"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Professional leadership credentials"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "AUD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": 25,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 30000,
+      "currency": "AUD",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-03-01",
+      "applicationDeadline": "2027-04-15",
+      "deadlineTimezone": "Australia/Sydney",
+      "officialSourceUrl": "https://www.dfat.gov.au/people-to-people/australia-awards",
+      "officialApplicationUrl": "https://www.dfat.gov.au/people-to-people/australia-awards",
+      "sourceId": "australia-awards",
+      "sourceIds": [
+        "australia-awards"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "uk-chevening-scholarships",
+      "sourceRecordId": "chevening-schol-2027",
+      "scholarshipName": "Chevening Scholarships",
+      "providerName": "Foreign, Commonwealth & Development Office (FCDO), UK Government",
+      "providerLogoUrl": null,
+      "description": "The UK government's global scholarship programme, funded by the FCDO and partner organizations. Offers fully funded one-year master's degrees at any UK university for future leaders.",
+      "eligibilityDetails": "Citizen of a Chevening-eligible country (including India, Commonwealth countries, global south). Hold undergraduate degree equivalent to an upper second-class 2:1 honours degree. At least two years of work experience.",
+      "scholarshipCategory": "International Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "master"
+      ],
+      "eligibleSubjects": [
+        "All one-year taught master's degree courses at UK universities"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "IN",
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "GB"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Other eligible disabilities"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "Undergraduate degree (UK 2:1 equivalent)",
+          "2,800 hours work experience"
+        ],
+        "minimumGpa": 3.3
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "GBP",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 35000,
+      "currency": "GBP",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-08-01",
+      "applicationDeadline": "2026-11-05",
+      "deadlineTimezone": "Europe/London",
+      "officialSourceUrl": "https://www.chevening.org/",
+      "officialApplicationUrl": "https://www.chevening.org/",
+      "sourceId": "uk-chevening",
+      "sourceIds": [
+        "uk-chevening"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "uk-commonwealth-masters-scholarships",
+      "sourceRecordId": "csc-masters-2027",
+      "scholarshipName": "Commonwealth Master's Scholarships",
+      "providerName": "Commonwealth Scholarship Commission in the UK (CSC)",
+      "providerLogoUrl": null,
+      "description": "Funded by the UK Foreign, Commonwealth & Development Office (FCDO) to enable talented and motivated individuals to gain the knowledge and skills required for sustainable development.",
+      "eligibilityDetails": "Citizen or permanent resident of an eligible Commonwealth country (including India). Hold a first degree of at least upper second-class (2:1) honours standard. Unable to afford to study in the UK without scholarship.",
+      "scholarshipCategory": "International Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "master"
+      ],
+      "eligibleSubjects": [
+        "Science and technology",
+        "Strengthening health systems",
+        "Promoting global prosperity",
+        "Peace, security and governance",
+        "Resilience and response to crises",
+        "Access, inclusion and opportunity"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "IN",
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "GB"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Other eligible disabilities"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "Undergraduate degree with 2:1 honours"
+        ],
+        "minimumGpa": 3.3
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "GBP",
+        "financialNeedRequired": true
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": true,
+      "awardAmount": 38000,
+      "currency": "GBP",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-09-01",
+      "applicationDeadline": "2026-12-15",
+      "deadlineTimezone": "Europe/London",
+      "officialSourceUrl": "https://cscuk.fcdo.gov.uk/",
+      "officialApplicationUrl": "https://cscuk.fcdo.gov.uk/",
+      "sourceId": "uk-commonwealth",
+      "sourceIds": [
+        "uk-commonwealth"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "uk-commonwealth-phd-scholarships",
+      "sourceRecordId": "csc-phd-2027",
+      "scholarshipName": "Commonwealth PhD Scholarships",
+      "providerName": "Commonwealth Scholarship Commission in the UK (CSC)",
+      "providerLogoUrl": null,
+      "description": "Supports full-time doctoral study at UK universities for high-achieving candidates from low and middle income Commonwealth countries.",
+      "eligibilityDetails": "Citizen of an eligible Commonwealth country. Hold an appropriate master's degree. Provide clear proposal with potential impact on development in home country.",
+      "scholarshipCategory": "Research Funding",
+      "scholarshipType": "Research Fellowship",
+      "studyLevels": [
+        "phd",
+        "research"
+      ],
+      "eligibleSubjects": [
+        "All development priority areas",
+        "Science",
+        "Technology",
+        "Health",
+        "Social Science"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "IN",
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "GB"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Master's degree with merit or distinction"
+        ],
+        "minimumGpa": 3.5
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "GBP",
+        "financialNeedRequired": true
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": true,
+      "awardAmount": 42000,
+      "currency": "GBP",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-09-01",
+      "applicationDeadline": "2026-12-15",
+      "deadlineTimezone": "Europe/London",
+      "officialSourceUrl": "https://cscuk.fcdo.gov.uk/",
+      "officialApplicationUrl": "https://cscuk.fcdo.gov.uk/",
+      "sourceId": "uk-commonwealth",
+      "sourceIds": [
+        "uk-commonwealth"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "uk-great-scholarships-british-council",
+      "sourceRecordId": "bc-great-2027",
+      "scholarshipName": "GREAT Scholarships",
+      "providerName": "British Council & UK Government GREAT Britain Campaign",
+      "providerLogoUrl": null,
+      "description": "Joint initiative offering £10,000 towards tuition fees for one-year postgraduate courses in the UK across participating British universities.",
+      "eligibilityDetails": "Passport holder of participating countries (including India, Bangladesh, China, Ghana, Kenya, Nigeria, Pakistan, Thailand, Turkey). Hold an undergraduate degree and an offer from a participating UK university.",
+      "scholarshipCategory": "International Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "master",
+        "postgraduate"
+      ],
+      "eligibleSubjects": [
+        "Wide range of subjects including STEM, Business, Law, Humanities, Climate Justice"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "IN",
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "GB"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Undergraduate degree matching university entrance criteria"
+        ],
+        "minimumGpa": 3
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "GBP",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 10000,
+      "currency": "GBP",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-10-01",
+      "applicationDeadline": "2027-05-31",
+      "deadlineTimezone": "Europe/London",
+      "officialSourceUrl": "https://www.britishcouncil.org/study-work-abroad/in-uk/great-scholarships",
+      "officialApplicationUrl": "https://www.britishcouncil.org/study-work-abroad/in-uk/great-scholarships",
+      "sourceId": "uk-great",
+      "sourceIds": [
+        "uk-great"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "uk-rhodes-scholarships-oxford",
+      "sourceRecordId": "rhodes-trust-2027",
+      "scholarshipName": "Rhodes Scholarships at the University of Oxford",
+      "providerName": "The Rhodes Trust / University of Oxford",
+      "providerLogoUrl": null,
+      "description": "Oldest and among the most prestigious international scholarship programmes in the world, enabling outstanding young people from around the world to study at Oxford.",
+      "eligibilityDetails": "Graduating senior or recent graduate with exceptional academic achievement, moral character, and commitment to service. Eligible constituencies include India, USA, Australia, Canada, Germany, Singapore, New Zealand, and Global constituency.",
+      "scholarshipCategory": "University",
+      "scholarshipType": "University Scholarship",
+      "studyLevels": [
+        "master",
+        "phd"
+      ],
+      "eligibleSubjects": [
+        "All full-time postgraduate degree courses at the University of Oxford"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "US",
+        "AU",
+        "CA",
+        "DE",
+        "NZ",
+        "SG",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "GB"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Other eligible disabilities"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "Undergraduate degree with first class or GPA 3.7+"
+        ],
+        "minimumGpa": 3.7
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "GBP",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": 18,
+        "maximum": 27
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 55000,
+      "currency": "GBP",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-06-01",
+      "applicationDeadline": "2026-10-01",
+      "deadlineTimezone": "Europe/London",
+      "officialSourceUrl": "https://www.rhodeshouse.ox.ac.uk/",
+      "officialApplicationUrl": "https://www.rhodeshouse.ox.ac.uk/",
+      "sourceId": "uk-rhodes",
+      "sourceIds": [
+        "uk-rhodes"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "uk-gates-cambridge-scholarship",
+      "sourceRecordId": "gates-cambridge-2027",
+      "scholarshipName": "Gates Cambridge Scholarships",
+      "providerName": "Gates Cambridge Trust / University of Cambridge",
+      "providerLogoUrl": null,
+      "description": "Prestigious full-cost scholarship for outstanding applicants from countries outside the UK to pursue a full-time postgraduate degree in any subject available at the University of Cambridge.",
+      "eligibilityDetails": "Citizen of any country outside the United Kingdom applying to pursue a PhD or one-year postgraduate course at Cambridge. Selection on intellectual ability, leadership, and commitment to improving lives of others.",
+      "scholarshipCategory": "University",
+      "scholarshipType": "University Scholarship",
+      "studyLevels": [
+        "master",
+        "phd"
+      ],
+      "eligibleSubjects": [
+        "All courses available at the University of Cambridge with limited exclusions"
+      ],
+      "applicantNationalities": [
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "GB"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "First class or high 2:1 honours degree"
+        ],
+        "minimumGpa": 3.8
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "GBP",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 50000,
+      "currency": "GBP",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-09-01",
+      "applicationDeadline": "2027-01-07",
+      "deadlineTimezone": "Europe/London",
+      "officialSourceUrl": "https://www.gatescambridge.org/",
+      "officialApplicationUrl": "https://www.gatescambridge.org/",
+      "sourceId": "uk-gates-cambridge",
+      "sourceIds": [
+        "uk-gates-cambridge"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "germany-daad-epos-postgraduate",
+      "sourceRecordId": "daad-epos-2027",
+      "scholarshipName": "DAAD Development-Related Postgraduate Courses (EPOS)",
+      "providerName": "Deutscher Akademischer Austauschdienst (DAAD)",
+      "providerLogoUrl": null,
+      "description": "Scholarships for professionals from developing and emerging countries to pursue master's and doctoral degrees at state-recognized German universities.",
+      "eligibilityDetails": "Bachelor's degree with above-average results, at least two years of professional experience in development-related sector. Citizenship of a DAC-listed developing country (including India).",
+      "scholarshipCategory": "International Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "master",
+        "phd"
+      ],
+      "eligibleSubjects": [
+        "Economic Sciences",
+        "Business Administration",
+        "Development Cooperation",
+        "Engineering",
+        "Regional Planning",
+        "Agriculture",
+        "Environmental Sciences",
+        "Public Health"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "IN",
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "DE"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Other eligible disabilities"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "Bachelor's degree with above-average grades",
+          "2 years work experience"
+        ],
+        "minimumGpa": 3
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "EUR",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 11208,
+      "currency": "EUR",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-06-01",
+      "applicationDeadline": "2026-11-30",
+      "deadlineTimezone": "Europe/Berlin",
+      "officialSourceUrl": "https://www.daad.de/en/",
+      "officialApplicationUrl": "https://www.daad.de/en/",
+      "sourceId": "germany-daad",
+      "sourceIds": [
+        "germany-daad"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "germany-daad-helmut-schmidt-programme",
+      "sourceRecordId": "daad-hsp-2027",
+      "scholarshipName": "DAAD Helmut-Schmidt-Programme (Public Policy and Good Governance)",
+      "providerName": "Deutscher Akademischer Austauschdienst (DAAD)",
+      "providerLogoUrl": null,
+      "description": "Designed to qualify future leaders in politics, law, economics, and administration according to principles of good governance at German universities.",
+      "eligibilityDetails": "Graduates from developing and emerging countries with undergraduate degree in political science, law, economics, or social sciences. Above-average academic record.",
+      "scholarshipCategory": "Government",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "master"
+      ],
+      "eligibleSubjects": [
+        "Public Policy",
+        "Good Governance",
+        "International Relations",
+        "Public Administration",
+        "Peace and Conflict Studies"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "DE"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Bachelor's degree in social sciences, law or economics"
+        ],
+        "minimumGpa": 3.2
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "EUR",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 11208,
+      "currency": "EUR",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-06-01",
+      "applicationDeadline": "2026-07-31",
+      "deadlineTimezone": "Europe/Berlin",
+      "officialSourceUrl": "https://www.daad.de/en/",
+      "officialApplicationUrl": "https://www.daad.de/en/",
+      "sourceId": "germany-daad",
+      "sourceIds": [
+        "germany-daad"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "germany-deutschlandstipendium-national",
+      "sourceRecordId": "bmbf-deutschlandstip-2026",
+      "scholarshipName": "Deutschlandstipendium National Scholarship Programme",
+      "providerName": "Federal Ministry of Education and Research (BMBF)",
+      "providerLogoUrl": null,
+      "description": "Provides financial and non-material support to high-achieving and committed students from all over the world at all participating German universities.",
+      "eligibilityDetails": "Enrolled or about to commence studies at a participating German higher education institution. Awarded based on academic merit, social engagement, and personal obstacles.",
+      "scholarshipCategory": "Merit-Based",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "undergraduate",
+        "master"
+      ],
+      "eligibleSubjects": [
+        "All degree subjects taught in German universities"
+      ],
+      "applicantNationalities": [
+        "DE",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "DE"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "University entrance qualification or bachelor degree"
+        ],
+        "minimumGpa": 3.3
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "EUR",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 3600,
+      "currency": "EUR",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-06-01",
+      "applicationDeadline": "2026-12-31",
+      "deadlineTimezone": "Europe/Berlin",
+      "officialSourceUrl": "https://www.deutschlandstipendium.de/",
+      "officialApplicationUrl": "https://www.deutschlandstipendium.de/",
+      "sourceId": "germany-deutschlandstipendium",
+      "sourceIds": [
+        "germany-deutschlandstipendium"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "germany-boell-foundation-scholarships",
+      "sourceRecordId": "boell-schol-2027",
+      "scholarshipName": "Heinrich Böll Foundation Graduate Scholarships",
+      "providerName": "Heinrich Böll Stiftung",
+      "providerLogoUrl": null,
+      "description": "Supports German and international students and doctoral candidates of all disciplines who are committed to green political values, democracy, and human rights.",
+      "eligibilityDetails": "International students accepted into a master's or PhD programme at a state-recognized university in Germany. Excellent academic standing and socio-political commitment.",
+      "scholarshipCategory": "Private Foundation",
+      "scholarshipType": "University Scholarship",
+      "studyLevels": [
+        "master",
+        "phd"
+      ],
+      "eligibleSubjects": [
+        "All subjects",
+        "Environmental Studies",
+        "Sustainability",
+        "Social Sciences",
+        "Law",
+        "Economics"
+      ],
+      "applicantNationalities": [
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "DE"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Undergraduate degree with excellent grades"
+        ],
+        "minimumGpa": 3.5
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "EUR",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 11208,
+      "currency": "EUR",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-06-01",
+      "applicationDeadline": "2027-03-01",
+      "deadlineTimezone": "Europe/Berlin",
+      "officialSourceUrl": "https://www.boell.de/en/scholarships",
+      "officialApplicationUrl": "https://www.boell.de/en/scholarships",
+      "sourceId": "germany-boell",
+      "sourceIds": [
+        "germany-boell"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "germany-daad-research-grants-phd",
+      "sourceRecordId": "daad-rg-phd-2027",
+      "scholarshipName": "DAAD Research Grants — Doctoral Programmes in Germany",
+      "providerName": "Deutscher Akademischer Austauschdienst (DAAD)",
+      "providerLogoUrl": null,
+      "description": "Provides monthly grants and health insurance for excellently-qualified foreign doctoral candidates to pursue their complete doctorate in Germany.",
+      "eligibilityDetails": "Master's degree or equivalent completed within the last 6 years with excellent results. Admission or invitation letter from a German doctoral supervisor.",
+      "scholarshipCategory": "Research Funding",
+      "scholarshipType": "Research Fellowship",
+      "studyLevels": [
+        "phd",
+        "research"
+      ],
+      "eligibleSubjects": [
+        "All academic research subjects"
+      ],
+      "applicantNationalities": [
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "DE"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Master's degree or Diploma"
+        ],
+        "minimumGpa": 3.5
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "EUR",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 15600,
+      "currency": "EUR",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-07-01",
+      "applicationDeadline": "2026-10-31",
+      "deadlineTimezone": "Europe/Berlin",
+      "officialSourceUrl": "https://www.daad.de/en/",
+      "officialApplicationUrl": "https://www.daad.de/en/",
+      "sourceId": "germany-daad",
+      "sourceIds": [
+        "germany-daad"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "france-eiffel-excellence-scholarship",
+      "sourceRecordId": "eiffel-excellence-2027",
+      "scholarshipName": "Eiffel Excellence Scholarship Programme",
+      "providerName": "French Ministry for Europe and Foreign Affairs & Campus France",
+      "providerLogoUrl": null,
+      "description": "Developed by the Ministry for Europe and Foreign Affairs to enable French higher education institutions to attract top foreign students for master's and doctoral degree programmes.",
+      "eligibilityDetails": "Non-French nationality. Up to 25 years old for master's level, up to 30 years old for PhD level. Candidates are presented directly by French higher education institutions.",
+      "scholarshipCategory": "International Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "master",
+        "phd"
+      ],
+      "eligibleSubjects": [
+        "Science and Technology",
+        "Biology and Health",
+        "Ecological Transition",
+        "Mathematics and Digital",
+        "Engineering",
+        "Law",
+        "Economics and Management"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "FR"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Outstanding undergraduate or master records"
+        ],
+        "minimumGpa": 3.6
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "EUR",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": 30
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 14160,
+      "currency": "EUR",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-10-01",
+      "applicationDeadline": "2027-01-10",
+      "deadlineTimezone": "Europe/Paris",
+      "officialSourceUrl": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
+      "officialApplicationUrl": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
+      "sourceId": "france-campus-france",
+      "sourceIds": [
+        "france-campus-france"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "netherlands-nl-scholarship",
+      "sourceRecordId": "nuffic-nl-scholarship-2026",
+      "scholarshipName": "NL Scholarship (Holland Scholarship)",
+      "providerName": "Dutch Ministry of Education, Culture and Science & Nuffic",
+      "providerLogoUrl": null,
+      "description": "Financed by the Dutch Ministry of Education, Culture and Science along with participating Dutch research universities and universities of applied sciences.",
+      "eligibilityDetails": "Nationality non-EEA. Applying for a full-time bachelor's or master's programme at a participating Dutch higher education institution. Never studied at an educational institution in the Netherlands before.",
+      "scholarshipCategory": "Government",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "undergraduate",
+        "master"
+      ],
+      "eligibleSubjects": [
+        "All participating university programmes"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "US",
+        "AU",
+        "CA",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "NL"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Meet admission criteria of participating Dutch institution"
+        ],
+        "minimumGpa": 3.2
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "EUR",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 5000,
+      "currency": "EUR",
+      "fundingType": "partial",
+      "applicationOpenDate": "2026-10-01",
+      "applicationDeadline": "2027-05-01",
+      "deadlineTimezone": "Europe/Amsterdam",
+      "officialSourceUrl": "https://www.studyinnl.org/",
+      "officialApplicationUrl": "https://www.studyinnl.org/",
+      "sourceId": "netherlands-nuffic",
+      "sourceIds": [
+        "netherlands-nuffic"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "sweden-si-scholarship-global-professionals",
+      "sourceRecordId": "si-gp-2027",
+      "scholarshipName": "Swedish Institute Scholarships for Global Professionals (SI GP)",
+      "providerName": "Swedish Institute (SI) / Swedish Ministry for Foreign Affairs",
+      "providerLogoUrl": null,
+      "description": "Fully funded academic scholarship by the Swedish Ministry for Foreign Affairs for global professionals pursuing full-time master's degrees in Sweden.",
+      "eligibilityDetails": "Citizen of an eligible country (including India, South Africa, Vietnam, etc.). Minimum 3,000 hours of demonstrated employment/work experience. Admitted to an eligible master's programme in Sweden.",
+      "scholarshipCategory": "International Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "master"
+      ],
+      "eligibleSubjects": [
+        "Eligible master's programmes in sustainability, innovation, technology, governance, human rights"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "SE"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Other eligible disabilities"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "Bachelor's degree and 3,000 hours certified work experience"
+        ],
+        "minimumGpa": 3.2
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "SEK",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 144000,
+      "currency": "SEK",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-10-15",
+      "applicationDeadline": "2027-02-28",
+      "deadlineTimezone": "Europe/Stockholm",
+      "officialSourceUrl": "https://si.se/en/apply/scholarships/",
+      "officialApplicationUrl": "https://si.se/en/apply/scholarships/",
+      "sourceId": "sweden-si",
+      "sourceIds": [
+        "sweden-si"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "sweden-si-scholarships-partner-regions",
+      "sourceRecordId": "si-partner-2027",
+      "scholarshipName": "Swedish Institute Partner Region Master's Scholarships",
+      "providerName": "Swedish Institute (SI)",
+      "providerLogoUrl": null,
+      "description": "Swedish Institute scholarships aimed at fostering democratic governance, green transition and economic resilience for talented international scholars.",
+      "eligibilityDetails": "Citizens of participating regional countries. Admitted to a designated English-taught master's programme in Sweden.",
+      "scholarshipCategory": "Government",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "master"
+      ],
+      "eligibleSubjects": [
+        "Climate Action",
+        "Technology",
+        "Social Sciences",
+        "Life Sciences"
+      ],
+      "applicantNationalities": [
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "SE"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Recognized undergraduate degree"
+        ],
+        "minimumGpa": 3
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "SEK",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 144000,
+      "currency": "SEK",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-10-15",
+      "applicationDeadline": "2027-02-28",
+      "deadlineTimezone": "Europe/Stockholm",
+      "officialSourceUrl": "https://si.se/en/apply/scholarships/",
+      "officialApplicationUrl": "https://si.se/en/apply/scholarships/",
+      "sourceId": "sweden-si",
+      "sourceIds": [
+        "sweden-si"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "finland-scholarships-edufi",
+      "sourceRecordId": "edufi-finland-schol-2027",
+      "scholarshipName": "Finland Scholarships for Master's Students",
+      "providerName": "Finnish National Agency for Education (EDUFI) & Finnish Universities",
+      "providerLogoUrl": null,
+      "description": "Funded by the Finnish Ministry of Education and Culture, offering a 100% first-year tuition waiver and a EUR 5,000 relocation grant for non-EU/EEA students.",
+      "eligibilityDetails": "Non-EU/EEA students liable for tuition fees who apply for international master's programmes at participating Finnish universities during joint application.",
+      "scholarshipCategory": "International Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "master"
+      ],
+      "eligibleSubjects": [
+        "Engineering",
+        "Computer Science",
+        "Business",
+        "Design",
+        "Education",
+        "Natural Sciences"
+      ],
+      "applicantNationalities": [
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "FI"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Applicable bachelor's degree with excellent academic standing"
+        ],
+        "minimumGpa": 3.3
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "EUR",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 5000,
+      "currency": "EUR",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-12-01",
+      "applicationDeadline": "2027-01-20",
+      "deadlineTimezone": "Europe/Helsinki",
+      "officialSourceUrl": "https://www.studyinfinland.fi/",
+      "officialApplicationUrl": "https://www.studyinfinland.fi/",
+      "sourceId": "finland-edufi",
+      "sourceIds": [
+        "finland-edufi"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "finland-edufi-fellowships-doctoral",
+      "sourceRecordId": "edufi-fellowship-2026",
+      "scholarshipName": "EDUFI Fellowships for Doctoral Students",
+      "providerName": "Finnish National Agency for Education (EDUFI)",
+      "providerLogoUrl": null,
+      "description": "Targeted at visiting doctoral students and young researchers from outside Finland to undertake research visits of 3 to 12 months at Finnish university departments.",
+      "eligibilityDetails": "Doctoral student enrolled at a foreign university visiting a Finnish university department, or candidate doing double degree.",
+      "scholarshipCategory": "Research Funding",
+      "scholarshipType": "Research Fellowship",
+      "studyLevels": [
+        "phd",
+        "research"
+      ],
+      "eligibleSubjects": [
+        "All academic fields represented in Finnish universities"
+      ],
+      "applicantNationalities": [
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "FI"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Enrolled doctoral student with confirmed hosting professor in Finland"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "EUR",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 18000,
+      "currency": "EUR",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-01-01",
+      "applicationDeadline": "2026-12-31",
+      "deadlineTimezone": "Europe/Helsinki",
+      "officialSourceUrl": "https://www.studyinfinland.fi/",
+      "officialApplicationUrl": "https://www.studyinfinland.fi/",
+      "sourceId": "finland-edufi",
+      "sourceIds": [
+        "finland-edufi"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "ireland-goi-ies-scholarships",
+      "sourceRecordId": "hea-goi-ies-2027",
+      "scholarshipName": "Government of Ireland International Education Scholarships (GOI-IES)",
+      "providerName": "Higher Education Authority (HEA), Department of Further and Higher Education, Ireland",
+      "providerLogoUrl": null,
+      "description": "Provides full tuition fee waiver plus EUR 10,000 stipend for one study year for high-calibre non-EU/EEA students studying in Irish higher education institutions.",
+      "eligibilityDetails": "Non-EU/EEA citizen with an offer of admission to an eligible Irish Higher Education Institution for master's, PhD, or final year undergraduate degree.",
+      "scholarshipCategory": "Government",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "undergraduate",
+        "master",
+        "phd"
+      ],
+      "eligibleSubjects": [
+        "All eligible academic disciplines in Irish universities"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "US",
+        "AU",
+        "CA",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "IE"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Undergraduate degree with first class honours"
+        ],
+        "minimumGpa": 3.5
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "EUR",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 10000,
+      "currency": "EUR",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-12-01",
+      "applicationDeadline": "2027-03-24",
+      "deadlineTimezone": "Europe/Dublin",
+      "officialSourceUrl": "https://hea.ie/",
+      "officialApplicationUrl": "https://hea.ie/",
+      "sourceId": "ireland-hea",
+      "sourceIds": [
+        "ireland-hea"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "eu-erasmus-mundus-joint-masters",
+      "sourceRecordId": "eacea-emjm-2027",
+      "scholarshipName": "Erasmus Mundus Joint Masters Scholarships",
+      "providerName": "European Commission / EACEA",
+      "providerLogoUrl": null,
+      "description": "High-level integrated master programmes designed and delivered by an international partnership of European higher education institutions across at least three different countries.",
+      "eligibilityDetails": "Students worldwide who have obtained a first higher education degree or demonstrate a recognised equivalent level of learning. Full coverage of participation costs, travel, and monthly allowance.",
+      "scholarshipCategory": "International Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "master"
+      ],
+      "eligibleSubjects": [
+        "Over 150 joint master programmes in Technology, Science, Humanities, Health, Environment"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "FR",
+        "DE",
+        "NL",
+        "SE",
+        "IE",
+        "FI"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Other eligible disabilities"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "Undergraduate bachelor degree or equivalent"
+        ],
+        "minimumGpa": 3.3
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "EUR",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 33600,
+      "currency": "EUR",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-10-01",
+      "applicationDeadline": "2027-02-15",
+      "deadlineTimezone": "Europe/Brussels",
+      "officialSourceUrl": "https://erasmus-plus.ec.europa.eu/",
+      "officialApplicationUrl": "https://erasmus-plus.ec.europa.eu/",
+      "sourceId": "eu-erasmus-plus",
+      "sourceIds": [
+        "eu-erasmus-plus"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "singapore-international-graduate-award-singa",
+      "sourceRecordId": "singa-phd-2027",
+      "scholarshipName": "Singapore International Graduate Award (SINGA)",
+      "providerName": "Agency for Science, Technology and Research (A*STAR)",
+      "providerLogoUrl": null,
+      "description": "Collaboration between A*STAR, NTU, NUS, and SUTD providing international students with up to 4 years of PhD research funding in biomedical sciences, physical sciences, and engineering.",
+      "eligibilityDetails": "Open to all international graduates with passion for research and excellent academic results. Full tuition fees, monthly stipend of SGD 2,200 to SGD 2,700, airfare grant, and settling-in allowance.",
+      "scholarshipCategory": "Research Funding",
+      "scholarshipType": "Research Fellowship",
+      "studyLevels": [
+        "phd",
+        "research"
+      ],
+      "eligibleSubjects": [
+        "Biomedical Sciences",
+        "Computing and Information Sciences",
+        "Engineering and Technology",
+        "Physical Sciences"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "SG"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Bachelor's or Master's degree with good academic standing"
+        ],
+        "minimumGpa": 3.4
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "SGD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 32400,
+      "currency": "SGD",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-06-01",
+      "applicationDeadline": "2026-12-01",
+      "deadlineTimezone": "Asia/Singapore",
+      "officialSourceUrl": "https://www.a-star.edu.sg/",
+      "officialApplicationUrl": "https://www.a-star.edu.sg/",
+      "sourceId": "singapore-singa",
+      "sourceIds": [
+        "singapore-singa"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "singapore-sutd-presidents-graduate-fellowship",
+      "sourceRecordId": "sutd-pgf-2027",
+      "scholarshipName": "SUTD President's Graduate Fellowship",
+      "providerName": "Singapore University of Technology and Design",
+      "providerLogoUrl": null,
+      "description": "Prestigious award offered to outstanding PhD candidates worldwide. Includes full tuition coverage and monthly stipend of SGD 3,000 for up to 4 years.",
+      "eligibilityDetails": "Open to international candidates applying to full-time PhD programmes at SUTD. Exemplary academic achievement and research potential.",
+      "scholarshipCategory": "University",
+      "scholarshipType": "University Scholarship",
+      "studyLevels": [
+        "phd",
+        "research"
+      ],
+      "eligibleSubjects": [
+        "Computer Science",
+        "Artificial Intelligence",
+        "Engineering Systems",
+        "Architecture",
+        "Design Technology"
+      ],
+      "applicantNationalities": [
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "SG"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Bachelor's degree with First Class Honours or equivalent"
+        ],
+        "minimumGpa": 3.7
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "SGD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 36000,
+      "currency": "SGD",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-06-01",
+      "applicationDeadline": "2027-02-28",
+      "deadlineTimezone": "Asia/Singapore",
+      "officialSourceUrl": "https://www.sutd.edu.sg/",
+      "officialApplicationUrl": "https://www.sutd.edu.sg/",
+      "sourceId": "singapore-sutd",
+      "sourceIds": [
+        "singapore-sutd"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "singapore-astar-computing-fellowship",
+      "sourceRecordId": "astar-acis-2027",
+      "scholarshipName": "A*STAR Computing and Information Science Scholarship",
+      "providerName": "Agency for Science, Technology and Research (A*STAR)",
+      "providerLogoUrl": null,
+      "description": "Attracts top computing talents to pursue PhD training in computer science, cybersecurity, and data science at NUS, NTU, or SUTD in Singapore.",
+      "eligibilityDetails": "Open to international applicants who achieved top academic results in computer science or mathematics.",
+      "scholarshipCategory": "Research Funding",
+      "scholarshipType": "Research Fellowship",
+      "studyLevels": [
+        "phd"
+      ],
+      "eligibleSubjects": [
+        "Computer Science",
+        "Cybersecurity",
+        "Data Science",
+        "Artificial Intelligence"
+      ],
+      "applicantNationalities": [
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "SG"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Bachelor's or Master's in computing related field"
+        ],
+        "minimumGpa": 3.6
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "SGD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 38400,
+      "currency": "SGD",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-06-01",
+      "applicationDeadline": "2026-12-01",
+      "deadlineTimezone": "Asia/Singapore",
+      "officialSourceUrl": "https://www.a-star.edu.sg/",
+      "officialApplicationUrl": "https://www.a-star.edu.sg/",
+      "sourceId": "singapore-singa",
+      "sourceIds": [
+        "singapore-singa"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "japan-mext-research-students-scholarship",
+      "sourceRecordId": "mext-research-2027",
+      "scholarshipName": "MEXT Japanese Government Scholarship for Research Students",
+      "providerName": "Ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan",
+      "providerLogoUrl": null,
+      "description": "Prestigious Japanese government scholarship covering full tuition, monthly stipend of 143,000 to 145,000 JPY, and return airfare for international graduate research students.",
+      "eligibilityDetails": "Applicants must hold nationality of a country having diplomatic relations with Japan. Born on or after April 2, 1990. Hold a university degree equivalent to Japanese university graduate.",
+      "scholarshipCategory": "International Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "master",
+        "phd",
+        "research"
+      ],
+      "eligibleSubjects": [
+        "All fields of study matching Japanese universities"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "JP"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Bachelor's or Master's degree (minimum 16 years of education)"
+        ],
+        "minimumGpa": 3.2
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "JPY",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": 35
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 1740000,
+      "currency": "JPY",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-04-01",
+      "applicationDeadline": "2027-05-31",
+      "deadlineTimezone": "Asia/Tokyo",
+      "officialSourceUrl": "https://www.studyinjapan.go.jp/",
+      "officialApplicationUrl": "https://www.studyinjapan.go.jp/",
+      "sourceId": "japan-mext",
+      "sourceIds": [
+        "japan-mext"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "japan-mext-undergraduate-scholarship",
+      "sourceRecordId": "mext-undergrad-2027",
+      "scholarshipName": "MEXT Japanese Government Scholarship for Undergraduate Students",
+      "providerName": "Ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan",
+      "providerLogoUrl": null,
+      "description": "Fully funded 5-year undergraduate scholarship programme including 1-year preparatory Japanese language training and 4-year degree studies in Japanese universities.",
+      "eligibilityDetails": "Completed 12 years of formal education. Born between April 2, 2002 and April 1, 2009. Academic excellence in mathematics, sciences and English.",
+      "scholarshipCategory": "Government",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "undergraduate"
+      ],
+      "eligibleSubjects": [
+        "Social Sciences",
+        "Humanities",
+        "Natural Sciences",
+        "Engineering",
+        "Medicine"
+      ],
+      "applicantNationalities": [
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "JP"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Higher Secondary (12th grade) completion"
+        ],
+        "minimumGpa": 3.5
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "JPY",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": 17,
+        "maximum": 24
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 1440000,
+      "currency": "JPY",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-04-01",
+      "applicationDeadline": "2027-05-31",
+      "deadlineTimezone": "Asia/Tokyo",
+      "officialSourceUrl": "https://www.studyinjapan.go.jp/",
+      "officialApplicationUrl": "https://www.studyinjapan.go.jp/",
+      "sourceId": "japan-mext",
+      "sourceIds": [
+        "japan-mext"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "south-korea-gks-graduate-degrees",
+      "sourceRecordId": "niied-gks-grad-2027",
+      "scholarshipName": "Global Korea Scholarship (GKS) for Graduate Degrees",
+      "providerName": "National Institute for International Education (NIIED), Ministry of Education",
+      "providerLogoUrl": null,
+      "description": "Designed to provide international students with opportunities to conduct advanced studies in higher educational institutions in the Republic of Korea. Includes round-trip airfare, full tuition, and monthly stipend.",
+      "eligibilityDetails": "Applicant and parents must not hold Korean citizenship. Under 40 years of age. Bachelor's or Master's degree with cumulative GPA above 80% on 100-point scale.",
+      "scholarshipCategory": "International Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "master",
+        "phd",
+        "research"
+      ],
+      "eligibleSubjects": [
+        "All academic fields offered by designated Korean universities"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "KR"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Other eligible disabilities"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "Bachelor's degree for Master, Master's degree for PhD"
+        ],
+        "minimumGpa": 3.2
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "KRW",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": 40
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 12000000,
+      "currency": "KRW",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-02-01",
+      "applicationDeadline": "2027-03-31",
+      "deadlineTimezone": "Asia/Seoul",
+      "officialSourceUrl": "https://www.studyinkorea.go.kr/",
+      "officialApplicationUrl": "https://www.studyinkorea.go.kr/",
+      "sourceId": "south-korea-niied",
+      "sourceIds": [
+        "south-korea-niied"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "south-korea-gks-undergraduate",
+      "sourceRecordId": "niied-gks-ug-2027",
+      "scholarshipName": "Global Korea Scholarship (GKS) for Undergraduate Degrees",
+      "providerName": "National Institute for International Education (NIIED), Ministry of Education",
+      "providerLogoUrl": null,
+      "description": "Korean government scholarship for international students seeking 4-year bachelor's degrees preceded by 1-year Korean language training.",
+      "eligibilityDetails": "International students who have graduated from high school. Under 25 years of age. Cumulative GPA score of 80% or higher.",
+      "scholarshipCategory": "Government",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "undergraduate"
+      ],
+      "eligibleSubjects": [
+        "All designated undergraduate programmes"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "KR"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "High school graduation diploma"
+        ],
+        "minimumGpa": 3.2
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "KRW",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": 25
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 10800000,
+      "currency": "KRW",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-09-01",
+      "applicationDeadline": "2026-10-31",
+      "deadlineTimezone": "Asia/Seoul",
+      "officialSourceUrl": "https://www.studyinkorea.go.kr/",
+      "officialApplicationUrl": "https://www.studyinkorea.go.kr/",
+      "sourceId": "south-korea-niied",
+      "sourceIds": [
+        "south-korea-niied"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "canada-vanier-graduate-scholarship",
+      "sourceRecordId": "vanier-cgs-2027",
+      "scholarshipName": "Vanier Canada Graduate Scholarships",
+      "providerName": "Government of Canada (CIHR, NSERC, SSHRC)",
+      "providerLogoUrl": null,
+      "description": "Canada's flagship doctoral awards program, valued at $50,000 per year for three years during doctoral studies at Canadian institutions.",
+      "eligibilityDetails": "Canadian and international citizens nominated by only one Canadian institution. Seeking first doctoral degree with top-level academic excellence, research potential, and demonstrated leadership.",
+      "scholarshipCategory": "Research Funding",
+      "scholarshipType": "Research Fellowship",
+      "studyLevels": [
+        "phd",
+        "research"
+      ],
+      "eligibleSubjects": [
+        "Health Research",
+        "Natural Sciences and Engineering",
+        "Social Sciences and Humanities"
+      ],
+      "applicantNationalities": [
+        "CA",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "CA"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Master's degree with first-class average in last two years"
+        ],
+        "minimumGpa": 3.8
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "CAD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 50000,
+      "currency": "CAD",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-06-15",
+      "applicationDeadline": "2026-11-01",
+      "deadlineTimezone": "America/Toronto",
+      "officialSourceUrl": "https://vanier.gc.ca/",
+      "officialApplicationUrl": "https://vanier.gc.ca/",
+      "sourceId": "canada-vanier",
+      "sourceIds": [
+        "canada-vanier"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "canada-banting-postdoctoral-fellowships",
+      "sourceRecordId": "banting-pdf-2027",
+      "scholarshipName": "Banting Postdoctoral Fellowships",
+      "providerName": "Government of Canada",
+      "providerLogoUrl": null,
+      "description": "Prestigious Canadian postdoctoral fellowship providing $70,000 per year for two years to top national and international postdoctoral researchers.",
+      "eligibilityDetails": "PhD, PhD-equivalent or health professional degree completed within the past 3 years. Institutional endorsement from a Canadian host institution.",
+      "scholarshipCategory": "Research Funding",
+      "scholarshipType": "Research Fellowship",
+      "studyLevels": [
+        "research"
+      ],
+      "eligibleSubjects": [
+        "Health Sciences",
+        "Natural Sciences",
+        "Engineering",
+        "Social Sciences",
+        "Humanities"
+      ],
+      "applicantNationalities": [
+        "CA",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "CA"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Doctoral degree completion"
+        ],
+        "minimumGpa": null
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "CAD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 70000,
+      "currency": "CAD",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-04-15",
+      "applicationDeadline": "2026-09-17",
+      "deadlineTimezone": "America/Toronto",
+      "officialSourceUrl": "https://vanier.gc.ca/",
+      "officialApplicationUrl": "https://vanier.gc.ca/",
+      "sourceId": "canada-vanier",
+      "sourceIds": [
+        "canada-vanier"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "new-zealand-manaaki-scholarships",
+      "sourceRecordId": "nz-manaaki-2027",
+      "scholarshipName": "Manaaki New Zealand Scholarships",
+      "providerName": "New Zealand Ministry of Foreign Affairs and Trade (MFAT)",
+      "providerLogoUrl": null,
+      "description": "Funded through the New Zealand Aid Programme, providing full tuition, living allowances, medical insurance and travel for partner country scholars.",
+      "eligibilityDetails": "Citizen of eligible developing country (including India, Pacific, Southeast Asia). Minimum 18 years of age. Commits to returning to home country for 2 years post study.",
+      "scholarshipCategory": "International Scholarship",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "postgraduate",
+        "master",
+        "phd"
+      ],
+      "eligibleSubjects": [
+        "Climate Change",
+        "Renewable Energy",
+        "Disaster Risk Management",
+        "Food Security",
+        "Good Governance"
+      ],
+      "applicantNationalities": [
+        "IN",
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "IN",
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "NZ"
+      ],
+      "disabilityEligibility": "accommodations",
+      "disabilityCategories": [
+        "Locomotor disability",
+        "Visual impairment",
+        "Hearing impairment",
+        "Other eligible disabilities"
+      ],
+      "academicRequirements": {
+        "qualifications": [
+          "Meet university academic and English language criteria"
+        ],
+        "minimumGpa": 3.2
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "NZD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": 18,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 30000,
+      "currency": "NZD",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-02-01",
+      "applicationDeadline": "2027-02-28",
+      "deadlineTimezone": "Pacific/Auckland",
+      "officialSourceUrl": "https://www.nzscholarships.govt.nz/",
+      "officialApplicationUrl": "https://www.nzscholarships.govt.nz/",
+      "sourceId": "new-zealand-mfat",
+      "sourceIds": [
+        "new-zealand-mfat"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": true
+    },
+    {
+      "scholarshipId": "new-zealand-international-doctoral-research",
+      "sourceRecordId": "nz-phd-research-2026",
+      "scholarshipName": "New Zealand University International Doctoral Research Grants",
+      "providerName": "New Zealand Ministry of Foreign Affairs and Trade (MFAT)",
+      "providerLogoUrl": null,
+      "description": "Special funding enabling high-calibre international doctoral researchers to study at domestic student tuition fee rates alongside university stipend support in New Zealand.",
+      "eligibilityDetails": "International students accepted into full-time doctoral research study at an accredited university in New Zealand.",
+      "scholarshipCategory": "Research Funding",
+      "scholarshipType": "Research Fellowship",
+      "studyLevels": [
+        "phd",
+        "research"
+      ],
+      "eligibleSubjects": [
+        "All research fields"
+      ],
+      "applicantNationalities": [
+        "all"
+      ],
+      "eligibleResidenceCountries": [
+        "all"
+      ],
+      "studyDestinationCountries": [
+        "NZ"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {
+        "qualifications": [
+          "Honours or master's degree with demonstrated research capacity"
+        ],
+        "minimumGpa": 3.5
+      },
+      "incomeRequirements": {
+        "maximum": null,
+        "currency": "NZD",
+        "financialNeedRequired": false
+      },
+      "ageRequirements": {
+        "minimum": null,
+        "maximum": null
+      },
+      "genderEligibility": "any",
+      "financialNeedRequired": false,
+      "awardAmount": 28000,
+      "currency": "NZD",
+      "fundingType": "full",
+      "applicationOpenDate": "2026-04-01",
+      "applicationDeadline": "2026-11-01",
+      "deadlineTimezone": "Pacific/Auckland",
+      "officialSourceUrl": "https://www.nzscholarships.govt.nz/",
+      "officialApplicationUrl": "https://www.nzscholarships.govt.nz/",
+      "sourceId": "new-zealand-mfat",
+      "sourceIds": [
+        "new-zealand-mfat"
+      ],
+      "verificationStatus": "verified",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T10:00:00.000Z",
+      "lastVerifiedAt": "2026-11-12T10:00:00.000Z",
+      "featured": false
+    },
+    {
+      "scholarshipId": "pm-yasasvi-top-class-education-schools-2026-27",
+      "sourceRecordId": "nsp-pm-yasasvi-schools-2026-27-announcement",
+      "scholarshipName": "PM YASASVI Central Sector Scheme of Top Class Education in Schools for OBC, EBC and DNT Students",
+      "providerName": "Government of India — PM YASASVI scheme",
+      "providerLogoUrl": null,
+      "description": "The National Scholarship Portal announcement for academic year 2026–27 reports that fresh applications are open for this scheme. It says students from Rajasthan, Keralam and Karnataka must wait for further notice. The announcement does not publish an application deadline or award amount.",
+      "eligibilityDetails": "The current portal announcement names OBC, EBC and DNT students. It instructs students with disabilities to complete UDID portal consent before submitting through NSP. Full eligibility, state availability, award details and deadline must be checked on the official portal; this record is awaiting full verification and is not an eligibility decision.",
+      "scholarshipCategory": "Government",
+      "scholarshipType": "Government Scholarship",
+      "studyLevels": [
+        "school"
+      ],
+      "eligibleSubjects": [],
+      "applicantNationalities": [],
+      "eligibleResidenceCountries": [],
+      "studyDestinationCountries": [
+        "IN"
+      ],
+      "disabilityEligibility": "open_to_disability",
+      "disabilityCategories": [],
+      "academicRequirements": {},
+      "incomeRequirements": {},
+      "ageRequirements": {},
+      "genderEligibility": "any",
+      "financialNeedRequired": null,
+      "awardAmount": null,
+      "currency": null,
+      "fundingType": null,
+      "applicationOpenDate": null,
+      "applicationDeadline": null,
+      "deadlineTimezone": "UTC",
+      "officialSourceUrl": "https://scholarships.gov.in/ViewMoreAnnouncement",
+      "officialApplicationUrl": "https://scholarships.gov.in/otrapplication/#/login-page",
+      "sourceId": "india-national-scholarship-portal",
+      "sourceIds": [
+        "india-national-scholarship-portal"
+      ],
+      "verificationStatus": "awaiting_verification",
+      "applicationStatus": "open",
+      "sourceCheckedAt": "2026-11-12T11:26:41.000Z",
+      "lastVerifiedAt": null,
+      "featured": false
+    }
+  ]
+}

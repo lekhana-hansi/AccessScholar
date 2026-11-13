@@ -1,0 +1,7 @@
+node_modules/
+.env
+.DS_Store
+backend/data/reports.json
+backend/data/reports.json.tmp
+backend/data/ingestion-logs.json
+backend/data/ingestion-logs.json.*.tmp

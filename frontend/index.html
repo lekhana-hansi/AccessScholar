@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore verified scholarship opportunities matched to your nationality, study destination, education level, and eligibility."
+    />
+    <meta name="theme-color" content="#243447" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AccessScholar" />
+    <meta property="og:title" content="AccessScholar | Discover Scholarships. Unlock Your Future." />
+    <meta property="og:description" content="Explore verified scholarship opportunities matched to your profile." />
+    <title>AccessScholar | Discover Scholarships. Unlock Your Future.</title>
+    <link rel="canonical" href="/" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="preload" as="image" href="/assets/education-hero.webp" type="image/webp" fetchpriority="high" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a class="brand" href="/">
+          <img class="brand-logo" src="/assets/accessscholar-logo.svg" alt="" />
+          <span>
+            <span class="brand-name">AccessScholar</span>
+            <span class="brand-tagline">Accessible Opportunities. Inclusive Education.</span>
+          </span>
+        </a>
+        <button id="navToggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="mainNav">
+          <span class="visually-hidden">Toggle navigation</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </button>
+        <nav id="mainNav" class="main-nav" aria-label="Main navigation">
+          <a href="/">Home</a>
+          <a href="/#search">Find Scholarships</a>
+          <a href="/#countries">Study Destinations</a>
+          <a href="/#disabilityFilter">Disability Scholarships</a>
+          <a href="/#about">About Us</a>
+          <a href="/#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <p id="accessibilityStatus" class="visually-hidden" role="status" aria-live="polite"></p>
+
+      <div id="homePage">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">A more inclusive path to education</p>
+            <h1 id="hero-title">Discover Scholarships. Unlock Your Future.</h1>
+            <p class="lead">
+              Explore educational funding opportunities across the world, matched to your nationality, study destination, education level and eligibility.
+            </p>
+            <ul class="hero-highlights" aria-label="About AccessScholar">
+              <li>Verified information from original sources</li>
+              <li>Eligibility-first discovery</li>
+              <li>Built with accessibility in mind</li>
+            </ul>
+            <p class="photo-credit">Education photo via <a href="https://www.pexels.com/license/" target="_blank" rel="noopener noreferrer">Pexels License</a>.</p>
+          </div>
+          <div class="hero-search-panel">
+            <p class="eyebrow">Start your search</p>
+            <h2>Find funding that fits</h2>
+            <form id="heroSearchForm" class="hero-search-form">
+              <div class="field">
+                <label for="heroKeyword">What do you want to study?</label>
+                <input id="heroKeyword" type="search" placeholder="Subject, scholarship or provider" />
+              </div>
+              <div class="hero-search-row">
+                <div class="field">
+                  <label for="heroDestination">Study destination</label>
+                  <select id="heroDestination"><option value="">Anywhere</option></select>
+                </div>
+                <div class="field">
+                  <label for="heroLevel">Education level</label>
+                  <select id="heroLevel">
+                    <option value="">Any level</option>
+                    <option value="school">School</option><option value="diploma">Diploma</option>
+                    <option value="undergraduate">Undergraduate</option><option value="postgraduate">Postgraduate</option>
+                    <option value="master">Master's</option><option value="phd">PhD</option>
+                    <option value="research">Research</option><option value="vocational">Vocational</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field">
+                <label for="heroDisability">Disability eligibility</label>
+                <select id="heroDisability">
+                  <option value="">All eligible opportunities</option>
+                  <option value="disability_specific">Specifically for students with disabilities</option>
+                  <option value="open_to_disability">Open to students with disabilities</option>
+                  <option value="accommodations">Disability accommodation available</option>
+                  <option value="no_published_restriction">No published restriction</option>
+                </select>
+              </div>
+              <button class="primary-btn hero-search-submit" type="submit">
+                <span>Search scholarships</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 4.5 4.5"></path></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="countries" class="country-section" aria-labelledby="country-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Explore by destination</p>
+            <h2 id="country-title">Where will your education take you?</h2>
+            <p class="section-intro">Choose a study destination to explore its currently verified opportunities. Counts reflect matching records in our catalog.</p>
+          </div>
+          <div id="countryGrid" class="country-grid" aria-busy="true"></div>
+        </div>
+      </section>
+
+      <section id="search" class="search-section" aria-labelledby="search-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Find support</p>
+            <h2 id="search-title">Find Scholarships</h2>
+            <p class="section-intro">
+              Tell us where you are applying from and where you want to study. Results include only individually verified opportunities whose published eligibility matches your selections.
+            </p>
+          </div>
+
+          <details id="filterDrawer" class="filter-drawer">
+            <summary>Search scholarships and filters</summary>
+          <form id="searchForm" class="search-form" aria-label="Scholarship search filters">
+            <div class="field">
+              <label for="keywordInput">Keyword</label>
+              <input id="keywordInput" name="q" type="search" placeholder="Search scholarships and schemes" autocomplete="off" />
+            </div>
+            <div class="field">
+              <label for="applicantCountryFilter">Applicant nationality</label>
+              <select id="applicantCountryFilter" name="applicantCountry">
+                <option value="">Any nationality</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="residenceCountryFilter">Current residence</label>
+              <select id="residenceCountryFilter" name="residenceCountry">
+                <option value="">Any residence</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="destinationCountryFilter">Study destination</label>
+              <select id="destinationCountryFilter" name="destinationCountry">
+                <option value="">Any destination</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="levelFilter">Education level</label>
+              <select id="levelFilter" name="level">
+                <option value="">Any level</option>
+                <option value="school">School</option>
+                <option value="undergraduate">Undergraduate</option>
+                <option value="postgraduate">Postgraduate</option>
+                <option value="master">Master's</option>
+                <option value="phd">PhD</option>
+                <option value="research">Research</option>
+                <option value="diploma">Diploma</option>
+                <option value="vocational">Vocational education</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="disabilityFilter">Disability eligibility</label>
+              <select id="disabilityFilter" name="disabilityEligibility">
+                <option value="">Any published disability eligibility</option>
+                <option value="disability_specific">Disability-specific</option>
+                <option value="open_to_disability">Open to students with disabilities</option>
+                <option value="accommodations">Disability accommodations available</option>
+                <option value="no_published_restriction">No published restriction</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="categoryFilter">Opportunity category</label>
+              <select id="categoryFilter" name="category">
+                <option value="">Any category</option>
+              </select>
+            </div>
+            <details class="advanced-filters">
+              <summary>More eligibility filters</summary>
+              <div class="advanced-filter-grid">
+                <div class="field">
+                  <label for="disabilityCategoryFilter">Disability category (only when required)</label>
+                  <select id="disabilityCategoryFilter" name="disabilityCategory">
+                    <option value="">Any category</option>
+                    <option>Visual impairment</option>
+                    <option>Hearing impairment</option>
+                    <option>Physical disability</option>
+                    <option>Locomotor disability</option>
+                    <option>Intellectual disability</option>
+                    <option>Learning disability</option>
+                    <option>Other eligible disabilities</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="fundingTypeFilter">Funding type</label>
+                  <select id="fundingTypeFilter" name="fundingType">
+                    <option value="">Any funding type</option>
+                    <option value="full">Full funding</option>
+                    <option value="partial">Partial funding</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="applicationStatusFilter">Application status</label>
+                  <select id="applicationStatusFilter" name="applicationStatus">
+                    <option value="">Any status</option>
+                    <option value="open">Open</option>
+                    <option value="deadline_approaching">Deadline approaching</option>
+                    <option value="closed">Closed</option>
+                    <option value="expired">Expired</option>
+                    <option value="unknown">Unknown</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="fieldOfStudyFilter">Field of study</label>
+                  <input id="fieldOfStudyFilter" name="fieldOfStudy" type="text" />
+                </div>
+                <div class="field">
+                  <label for="institutionFilter">Institution</label>
+                  <input id="institutionFilter" name="institution" type="text" />
+                </div>
+                <div class="field">
+                  <label for="qualificationFilter">Academic qualification</label>
+                  <input id="qualificationFilter" name="academicQualification" type="text" />
+                </div>
+                <div class="field">
+                  <label for="genderFilter">Gender eligibility</label>
+                  <select id="genderFilter" name="gender">
+                    <option value="">Any</option>
+                    <option value="any">Any gender</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="financialNeedFilter">Financial need</label>
+                  <select id="financialNeedFilter" name="financialNeed">
+                    <option value="">Any</option>
+                    <option value="true">Required</option>
+                    <option value="false">Not required</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="gpaFilter">Minimum GPA you meet</label>
+                  <input id="gpaFilter" name="gpa" type="number" min="0" step="any" />
+                </div>
+                <div class="field">
+                  <label for="incomeFilter">Annual household income</label>
+                  <input id="incomeFilter" name="maximumIncome" type="number" min="0" step="any" />
+                </div>
+                <div class="field">
+                  <label for="ageFilter">Applicant age</label>
+                  <input id="ageFilter" name="age" type="number" min="0" step="1" />
+                </div>
+                <div class="field">
+                  <label for="deadlineBeforeFilter">Deadline on or before</label>
+                  <input id="deadlineBeforeFilter" name="deadlineBefore" type="date" />
+                </div>
+                <div class="field">
+                  <label for="deadlineAfterFilter">Deadline on or after</label>
+                  <input id="deadlineAfterFilter" name="deadlineAfter" type="date" />
+                </div>
+              </div>
+            </details>
+            <div class="actions-wrap">
+              <button type="submit" class="primary-btn">Apply filters</button>
+              <button type="button" id="clearFilters" class="secondary-btn secondary-light">Clear all</button>
+            </div>
+          </form>
+          </details>
+
+          <details class="student-profile" id="studentProfile">
+            <summary>Personalize your search (optional)</summary>
+            <p>Your profile is optional. Saving is local to this browser. You do not need to share disability information to browse scholarships.</p>
+            <form id="profileForm" class="profile-form">
+              <div class="profile-grid">
+                <div class="field"><label for="profileNationality">Applicant nationality</label><select id="profileNationality" name="applicantCountry"><option value="">Not specified</option></select></div>
+                <div class="field"><label for="profileResidence">Country of residence</label><select id="profileResidence" name="residenceCountry"><option value="">Not specified</option></select></div>
+                <div class="field"><label for="profileDestination">Preferred study destination</label><select id="profileDestination" name="destinationCountry"><option value="">Not specified</option></select></div>
+                <div class="field"><label for="profileLevel">Education level</label><select id="profileLevel" name="level"><option value="">Not specified</option><option value="school">School</option><option value="diploma">Diploma</option><option value="undergraduate">Undergraduate</option><option value="postgraduate">Postgraduate</option><option value="master">Master's</option><option value="phd">PhD</option><option value="research">Research</option><option value="vocational">Vocational</option></select></div>
+                <div class="field"><label for="profileSubject">Subject / course</label><input id="profileSubject" name="fieldOfStudy" type="text" maxlength="100" /></div>
+                <div class="field"><label for="profileQualification">Academic qualification</label><input id="profileQualification" name="academicQualification" type="text" maxlength="100" /></div>
+                <div class="field"><label for="profileScore">Academic score (GPA scale used by provider)</label><input id="profileScore" name="gpa" type="number" min="0" step="any" /></div>
+                <div class="field"><label for="profileAge">Age (optional)</label><input id="profileAge" name="age" type="number" min="0" step="1" /></div>
+                <div class="field"><label for="profileIncome">Annual household income (optional)</label><input id="profileIncome" name="income" type="number" min="0" step="any" /></div>
+                <div class="field"><label for="profileDisability">Disability status (optional)</label><select id="profileDisability" name="disabilityStatus"><option value="">Prefer not to say</option><option value="yes">Person with disability</option><option value="no">No</option></select></div>
+                <div class="field"><label for="profileDisabilityCategory">Disability category (optional)</label><select id="profileDisabilityCategory" name="disabilityCategory"><option value="">Prefer not to say</option><option>Visual impairment</option><option>Hearing impairment</option><option>Physical disability</option><option>Locomotor disability</option><option>Intellectual disability</option><option>Learning disability</option><option>Other eligible disabilities</option></select></div>
+                <div class="field"><label for="profileNeed">Financial need</label><select id="profileNeed" name="financialNeed"><option value="">Not specified</option><option value="true">I need financial assistance</option><option value="false">I do not need financial assistance</option></select></div>
+                <div class="field"><label for="profileFunding">Preferred funding</label><select id="profileFunding" name="fundingType"><option value="">Any funding</option><option value="full">Full funding</option><option value="partial">Partial funding</option></select></div>
+              </div>
+              <div class="actions-wrap">
+                <button class="primary-btn" type="submit">Find Scholarships For Me</button>
+                <button class="secondary-btn" id="saveProfile" type="button">Save profile on this device</button>
+                <button class="secondary-btn" id="clearProfile" type="button">Clear saved profile</button>
+              </div>
+              <p id="profileStatus" class="profile-status" role="status" aria-live="polite"></p>
+            </form>
+            <section id="profileMatches" class="profile-matches" aria-live="polite" hidden></section>
+          </details>
+
+          <div id="activeFilters" class="active-filters" role="group" aria-label="Active filters"></div>
+          <div class="results-summary" id="resultsSummary" aria-live="polite" aria-atomic="true">
+            <span id="resultsCount">Loading official opportunities...</span>
+            <label class="sort-control" for="resultsSort">Sort
+              <select id="resultsSort">
+                <option value="latest">Recently updated</option>
+                <option value="deadline">Deadline approaching</option>
+                <option value="funding">Fully funded first</option>
+                <option value="new">New opportunities</option>
+                <option value="verified">Recently verified</option>
+              </select>
+            </label>
+          </div>
+          <div id="opportunitySections" class="opportunity-sections" aria-live="polite"></div>
+          <div id="scholarshipResults" class="scholarship-grid" aria-busy="true"></div>
+          <nav id="resultsPagination" class="results-pagination" aria-label="Scholarship results pages" hidden>
+            <button type="button" id="previousPage" class="secondary-btn">Previous</button>
+            <span id="pageStatus" aria-live="polite"></span>
+            <button type="button" id="nextPage" class="secondary-btn">Next</button>
+          </nav>
+          <section id="awaitingVerificationSection" class="opportunity-shelf" aria-labelledby="awaitingVerificationTitle" hidden>
+            <h2 id="awaitingVerificationTitle" class="opportunity-shelf-title">Opportunities awaiting verification</h2>
+            <p>These are real provider announcements, but their full eligibility or application details have not been verified. Confirm everything with the official source before applying.</p>
+            <div id="awaitingVerificationResults" class="scholarship-grid"></div>
+          </section>
+          <section id="officialSources" class="official-sources" aria-labelledby="sources-title" hidden>
+            <h3 id="sources-title">Official source references</h3>
+            <p>These are references, not individual scholarships. Sources without a verified feed are checked manually; no record is displayed until its details are verified.</p>
+            <ul id="officialSourcesList"></ul>
+          </section>
+        </div>
+      </section>
+      </div>
+
+      <section id="scholarshipDetailPage" class="detail-page container" aria-live="polite" hidden>
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="/">Home</a><span aria-hidden="true">/</span><a href="/#search">Scholarships</a><span aria-hidden="true">/</span><span id="detailBreadcrumb">Details</span>
+        </nav>
+        <div id="scholarshipDetailContent"></div>
+      </section>
+    </main>
+
+    <footer id="about" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h2>About AccessScholar</h2>
+          <p>AccessScholar helps students discover verified education funding and inclusive opportunities from official sources.</p>
+        </div>
+        <div>
+          <h2>Use official sources</h2>
+          <p>Listings distinguish the provider, original information source and application destination. AccessScholar is independent; no partnership or endorsement is implied.</p>
+        </div>
+        <div>
+          <h2>Our promise</h2>
+          <p>We do not award scholarships or make admission decisions. Applications are processed by the official provider.</p>
+        </div>
+        <div id="contact">
+          <h2>Contact</h2>
+          <p>For application questions, contact the scholarship provider through its official source or application portal.</p>
+        </div>
+        <div class="footer-policy-links">
+          <h2>Policies and accessibility</h2>
+          <p><a href="/privacy.html">Privacy policy</a> · <a href="/terms.html">Terms of use</a> · <a href="/accessibility.html">Accessibility statement</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <button id="accessibilityLauncher" class="accessibility-launcher" type="button" aria-label="Open accessibility settings" aria-haspopup="dialog" aria-controls="accessibilityDialog">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <circle cx="12" cy="4.5" r="2.25"></circle>
+        <path d="M4.5 8.5h15M12 7v5.5m0 0-5.3 7M12 12.5l5.3 7M8 8.5l1 5h6l1-5"></path>
+      </svg>
+    </button>
+
+    <dialog id="accessibilityDialog" class="accessibility-dialog" aria-labelledby="accessibility-dialog-title">
+      <div class="accessibility-dialog-header">
+        <div>
+          <p class="eyebrow">Personalize your experience</p>
+          <h2 id="accessibility-dialog-title">Accessibility settings</h2>
+        </div>
+        <button id="closeAccessibilityDialog" class="modal-close" type="button" aria-label="Close accessibility settings">×</button>
+      </div>
+      <fieldset class="tool-panel">
+        <legend>Readability</legend>
+        <div class="tool-grid">
+          <div class="accessibility-control"><label for="fontFamily">Readable font</label><select id="fontFamily" data-accessibility-setting="fontFamily"><option value="system">System default</option><option value="open-sans">Open Sans</option><option value="arial">Arial</option><option value="atkinson">Atkinson Hyperlegible</option></select></div>
+          <button class="tool-btn" type="button" data-accessibility="font-decrease" aria-label="Decrease text size">Text smaller</button>
+          <button class="tool-btn" type="button" data-accessibility="font-increase" aria-label="Increase text size">Text larger</button>
+          <button class="tool-btn" type="button" data-accessibility="dyslexia-font" aria-pressed="false">Dyslexia-friendly font</button>
+          <button class="tool-btn" type="button" data-accessibility="line-spacing" aria-pressed="false">Increase line spacing</button>
+          <button class="tool-btn" type="button" data-accessibility="letter-spacing" aria-pressed="false">Increase letter spacing</button>
+          <button class="tool-btn" type="button" data-accessibility="highlight-headings" aria-pressed="false">Highlight headings</button>
+          <button class="tool-btn" type="button" data-accessibility="highlight-links" aria-pressed="false">Highlight links</button>
+          <button class="tool-btn" type="button" data-accessibility="simplified-layout" aria-pressed="false">Simplified reading layout</button>
+        </div>
+      </fieldset>
+      <fieldset class="tool-panel">
+        <legend>Visual</legend>
+        <div class="tool-grid">
+          <button class="tool-btn" type="button" data-accessibility="mode-light" aria-pressed="true">Light mode</button>
+          <button class="tool-btn" type="button" data-accessibility="mode-dark" aria-pressed="false">Dark mode</button>
+          <button class="tool-btn" type="button" data-accessibility="mode-contrast" aria-pressed="false">High contrast</button>
+          <button class="tool-btn" type="button" data-accessibility="mode-inverted" aria-pressed="false">Inverted colors</button>
+          <button class="tool-btn" type="button" data-accessibility="mode-grayscale" aria-pressed="false">Grayscale</button>
+          <button class="tool-btn" type="button" data-accessibility="mode-warm" aria-pressed="false">Warm reading mode</button>
+          <button class="tool-btn" type="button" data-accessibility="reading-ruler" aria-pressed="false">Reading ruler</button>
+          <button class="tool-btn" type="button" data-accessibility="reading-mask" aria-pressed="false">Reading mask</button>
+          <button class="tool-btn" type="button" data-accessibility="large-cursor" aria-pressed="false">Large cursor</button>
+        </div>
+      </fieldset>
+      <fieldset class="tool-panel">
+        <legend>Text to speech</legend>
+        <div class="tool-grid">
+          <button class="tool-btn" type="button" data-accessibility="read-aloud">Read page</button>
+          <button class="tool-btn" type="button" data-accessibility="pause-speech">Pause</button>
+          <button class="tool-btn" type="button" data-accessibility="resume-speech">Resume</button>
+          <button class="tool-btn" type="button" data-accessibility="stop-aloud">Stop</button>
+          <div class="accessibility-control"><label for="speechSpeed">Speech speed</label><select id="speechSpeed" data-accessibility-setting="speechSpeed"><option value="0.75">0.75×</option><option value="1">1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></div>
+          <div class="accessibility-control"><label for="speechVoice">Voice</label><select id="speechVoice" data-accessibility-setting="speechVoice"><option value="">Browser default</option></select></div>
+        </div>
+      </fieldset>
+      <fieldset class="tool-panel">
+        <legend>Navigation and motion</legend>
+        <div class="tool-grid">
+          <button class="tool-btn" type="button" data-accessibility="focus-highlight" aria-pressed="false">Highlight keyboard focus</button>
+          <button class="tool-btn" type="button" data-accessibility="highlight-controls" aria-pressed="false">Highlight buttons and links</button>
+          <button class="tool-btn" type="button" data-accessibility="reduce-motion" aria-pressed="false">Reduce motion</button>
+        </div>
+        <a class="skip-link-inline" href="#main-content">Skip to main content</a>
+      </fieldset>
+      <fieldset class="tool-panel contrast-checker">
+        <legend>Color contrast checker</legend>
+        <div class="contrast-inputs">
+          <div class="accessibility-control"><label for="contrastForeground">Text color</label><input id="contrastForeground" type="color" value="#263445" /></div>
+          <div class="accessibility-control"><label for="contrastBackground">Background color</label><input id="contrastBackground" type="color" value="#ffffff" /></div>
+        </div>
+        <p id="contrastResult" role="status" aria-live="polite"></p>
+      </fieldset>
+      <div class="accessibility-settings-actions">
+        <button class="primary-btn" type="button" data-accessibility="save-settings">Save preferences</button>
+        <button class="secondary-btn" type="button" data-accessibility="reset">Reset all</button>
+        <a href="/accessibility.html">Accessibility help</a>
+      </div>
+      <p class="accessibility-dialog-note">Settings are stored locally in this browser. Readable font availability depends on fonts installed on your device. Videos are not currently used on this site.</p>
+    </dialog>
+
+    <dialog id="reportDialog" class="accessibility-dialog report-dialog" aria-labelledby="report-dialog-title">
+      <div class="accessibility-dialog-header">
+        <div><p class="eyebrow">Help us review this listing</p><h2 id="report-dialog-title">Report incorrect information</h2></div>
+        <button id="closeReportDialog" class="modal-close" type="button" aria-label="Close report form">×</button>
+      </div>
+      <p id="reportScholarshipName"></p>
+      <form id="reportForm">
+        <input id="reportScholarshipId" name="scholarshipId" type="hidden" />
+        <div class="field"><label for="reportReason">What needs review?</label><select id="reportReason" name="reason" required><option value="">Choose an issue</option><option value="expired_deadline">Expired deadline</option><option value="incorrect_details">Incorrect scholarship details</option><option value="broken_application_url">Broken application URL</option><option value="incorrect_eligibility">Incorrect eligibility criteria</option><option value="incorrect_provider_logo">Incorrect provider logo</option></select></div>
+        <div class="field"><label for="reportDetails">Details (do not include personal or sensitive information)</label><textarea id="reportDetails" name="details" maxlength="1000" rows="4" required></textarea></div>
+        <button class="primary-btn" type="submit">Send report for review</button>
+        <p id="reportStatus" role="status" aria-live="polite"></p>
+      </form>
+    </dialog>
+
+    <div id="readingRuler" class="reading-ruler" aria-hidden="true" hidden></div>
+    <div id="readingMask" class="reading-mask" aria-hidden="true" hidden></div>
+    <script src="/script.js" defer></script>
+  </body>
+</html>

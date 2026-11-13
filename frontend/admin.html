@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content="Private AccessScholar report review dashboard." />
+    <title>Admin Report Review | AccessScholar</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/admin.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="topbar"><div class="container nav-wrap"><a class="brand" href="/"><span class="brand-name">AccessScholar</span><span class="brand-tagline">Admin report review</span></a><nav class="main-nav" aria-label="Main navigation"><a href="/">Public site</a></nav></div></header>
+    <main id="main-content" class="container admin-page">
+      <h1>Scholarship data administration</h1>
+      <p>Review incoming source data and user reports. Verify facts against the official provider before publishing any scholarship.</p>
+      <form id="adminLogin" class="admin-login">
+        <div class="field"><label for="adminToken">Admin API token</label><input id="adminToken" type="password" autocomplete="off" required /></div>
+        <button class="primary-btn" type="submit">Load reports</button>
+        <button class="secondary-btn" id="adminLogout" type="button">Clear token</button>
+      </form>
+      <p id="adminStatus" role="status" aria-live="polite"></p>
+      <section id="databaseDashboard" aria-labelledby="databaseDashboardTitle" hidden>
+        <h2 id="databaseDashboardTitle">Scholarship data and ingestion</h2>
+        <p>Without PostgreSQL, this dashboard uses the local JSON catalog. CSV imports are validated and saved to the catalog used by scholarship search. Automatic feeds require PostgreSQL and a verified, permitted feed endpoint.</p>
+        <div id="databaseMetrics" class="admin-metrics"></div>
+        <div class="admin-data-actions">
+          <button class="secondary-btn" id="runSourceRefresh" type="button">Run due source refreshes</button>
+          <button class="secondary-btn" id="exportScholarshipCsv" type="button">Export scholarship CSV</button>
+        </div>
+        <p id="sourceManagementNote">Source registry changes and automatic refresh require PostgreSQL.</p>
+        <h3>Registered sources</h3>
+        <div id="adminSources" class="admin-data-list"></div>
+        <h3>Verification queue</h3>
+        <p>Only verify a listing after checking the official source, full eligibility, application dates and application destination.</p>
+        <div id="verificationQueue" class="admin-data-list"></div>
+        <form id="addSourceForm" class="admin-login">
+          <h3>Add official source</h3>
+          <div class="field"><label for="sourceId">Source ID</label><input id="sourceId" name="sourceId" required pattern="[a-z0-9]+(?:-[a-z0-9]+)*" /></div>
+          <div class="field"><label for="sourceName">Source name</label><input id="sourceName" name="sourceName" required maxlength="160" /></div>
+          <div class="field"><label for="sourceCountry">Country</label><input id="sourceCountry" name="country" required maxlength="100" /></div>
+          <div class="field"><label for="sourceWebsite">Official website (HTTPS)</label><input id="sourceWebsite" name="officialWebsite" type="url" required /></div>
+          <div class="field"><label for="sourceType">Source type</label><select id="sourceType" name="sourceType"><option value="government_portal">Government portal</option><option value="government_information">Government information</option><option value="government_program">Government program</option><option value="university">University</option><option value="foundation">Foundation</option></select></div>
+          <div class="field"><label for="sourceIntegration">Integration</label><select id="sourceIntegration" name="integrationMethod"><option value="manual_verification">Manual verification/import</option><option value="json_feed">Official JSON feed</option></select></div>
+          <div class="field"><label for="sourceEndpoint">Documented official JSON feed endpoint</label><input id="sourceEndpoint" name="apiEndpoint" type="url" /></div>
+          <div class="field"><label for="sourceInterval">Refresh interval (hours)</label><input id="sourceInterval" name="refreshIntervalHours" type="number" min="1" max="720" value="24" /></div>
+          <button class="primary-btn" type="submit">Add source</button>
+        </form>
+        <h3>Import scholarship CSV records</h3>
+        <p>CSV rows must use the schema documented in README. Only use official, permitted sources. Records marked verified are an explicit administrator attestation; do not claim facts not shown by the provider.</p>
+        <form id="csvImportForm" class="admin-import-form">
+          <label for="csvImportData">Scholarship CSV</label>
+          <textarea id="csvImportData" name="csv" rows="8" required></textarea>
+          <button class="primary-btn" type="submit">Import CSV</button>
+        </form>
+        <p id="importStatus" role="status" aria-live="polite"></p>
+        <h3>Recent ingestion logs</h3>
+        <div id="ingestionLogs" class="admin-data-list"></div>
+      </section>
+      <section id="adminReports" aria-labelledby="reportsTitle">
+        <h2 id="reportsTitle">Scholarship report review</h2>
+        <p>Reports are unverified user feedback. Review the official source before changing any scholarship record.</p>
+      </section>
+    </main>
+    <button id="adminAccessLauncher" class="accessibility-launcher" type="button" aria-label="Open accessibility settings" aria-haspopup="dialog" aria-controls="adminAccessDialog">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="4.5" r="2.25"></circle><path d="M4.5 8.5h15M12 7v5.5m0 0-5.3 7M12 12.5l5.3 7M8 8.5l1 5h6l1-5"></path></svg>
+    </button>
+    <p id="adminAccessStatus" class="visually-hidden" role="status" aria-live="polite"></p>
+    <dialog id="adminAccessDialog" class="accessibility-dialog" aria-labelledby="adminAccessTitle">
+      <div class="accessibility-dialog-header"><div><p class="eyebrow">Personalize your experience</p><h2 id="adminAccessTitle">Accessibility settings</h2></div><button id="adminAccessClose" class="modal-close" type="button" aria-label="Close accessibility settings">×</button></div>
+      <fieldset class="tool-panel"><legend>Readability</legend><div class="tool-grid">
+        <div class="accessibility-control"><label for="adminFontFamily">Readable font</label><select id="adminFontFamily" data-accessibility-setting="fontFamily"><option value="system">System default</option><option value="open-sans">Open Sans</option><option value="arial">Arial</option><option value="atkinson">Atkinson Hyperlegible</option></select></div>
+        <button class="tool-btn" data-accessibility="font-decrease" type="button">Text smaller</button><button class="tool-btn" data-accessibility="font-increase" type="button">Text larger</button>
+        <button class="tool-btn" data-accessibility="dyslexia-font" type="button" aria-pressed="false">Dyslexia-friendly font</button><button class="tool-btn" data-accessibility="line-spacing" type="button" aria-pressed="false">Increase line spacing</button>
+        <button class="tool-btn" data-accessibility="letter-spacing" type="button" aria-pressed="false">Increase letter spacing</button><button class="tool-btn" data-accessibility="highlight-headings" type="button" aria-pressed="false">Highlight headings</button>
+        <button class="tool-btn" data-accessibility="highlight-links" type="button" aria-pressed="false">Highlight links</button><button class="tool-btn" data-accessibility="simplified-layout" type="button" aria-pressed="false">Simplified layout</button>
+      </div></fieldset>
+      <fieldset class="tool-panel"><legend>Visual</legend><div class="tool-grid">
+        <button class="tool-btn" data-accessibility="mode-light" type="button" aria-pressed="true">Light mode</button><button class="tool-btn" data-accessibility="mode-dark" type="button" aria-pressed="false">Dark mode</button>
+        <button class="tool-btn" data-accessibility="mode-contrast" type="button" aria-pressed="false">High contrast</button><button class="tool-btn" data-accessibility="mode-inverted" type="button" aria-pressed="false">Inverted colors</button>
+        <button class="tool-btn" data-accessibility="mode-grayscale" type="button" aria-pressed="false">Grayscale</button><button class="tool-btn" data-accessibility="mode-warm" type="button" aria-pressed="false">Warm reading mode</button>
+        <button class="tool-btn" data-accessibility="reading-ruler" type="button" aria-pressed="false">Reading ruler</button><button class="tool-btn" data-accessibility="reading-mask" type="button" aria-pressed="false">Reading mask</button>
+        <button class="tool-btn" data-accessibility="large-cursor" type="button" aria-pressed="false">Large cursor</button>
+      </div></fieldset>
+      <fieldset class="tool-panel"><legend>Text to speech</legend><div class="tool-grid">
+        <button class="tool-btn" data-accessibility="read-aloud" type="button">Read page</button><button class="tool-btn" data-accessibility="pause-speech" type="button">Pause</button>
+        <button class="tool-btn" data-accessibility="resume-speech" type="button">Resume</button><button class="tool-btn" data-accessibility="stop-aloud" type="button">Stop</button>
+        <div class="accessibility-control"><label for="adminSpeechSpeed">Speech speed</label><select id="adminSpeechSpeed" data-accessibility-setting="speechSpeed"><option value="0.75">0.75×</option><option value="1">1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></div>
+        <div class="accessibility-control"><label for="adminSpeechVoice">Voice</label><select id="adminSpeechVoice" data-accessibility-setting="speechVoice"><option value="">Browser default</option></select></div>
+      </div></fieldset>
+      <fieldset class="tool-panel"><legend>Navigation and motion</legend><div class="tool-grid">
+        <button class="tool-btn" data-accessibility="focus-highlight" type="button" aria-pressed="false">Highlight keyboard focus</button>
+        <button class="tool-btn" data-accessibility="highlight-controls" type="button" aria-pressed="false">Highlight buttons and links</button>
+        <button class="tool-btn" data-accessibility="reduce-motion" type="button" aria-pressed="false">Reduce motion</button>
+      </div><a class="skip-link-inline" href="#main-content">Skip to main content</a></fieldset>
+      <fieldset class="tool-panel"><legend>Color contrast checker</legend><div class="contrast-inputs">
+        <div class="accessibility-control"><label for="adminContrastForeground">Text color</label><input id="adminContrastForeground" type="color" value="#263445" /></div>
+        <div class="accessibility-control"><label for="adminContrastBackground">Background color</label><input id="adminContrastBackground" type="color" value="#ffffff" /></div>
+      </div><p id="adminContrastResult" role="status" aria-live="polite"></p></fieldset>
+      <div class="accessibility-settings-actions"><button class="primary-btn" data-accessibility="save-settings" type="button">Save preferences</button><button class="secondary-btn" data-accessibility="reset" type="button">Reset all</button><a href="/accessibility.html">Accessibility help</a></div>
+    </dialog>
+    <div id="adminReadingRuler" class="reading-ruler" aria-hidden="true" hidden></div>
+    <div id="adminReadingMask" class="reading-mask" aria-hidden="true" hidden></div>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+:root {
+  color-scheme: light;
+  --navy: #243447;
+  --blue-gray: #52677d;
+  --accent: #6689a8;
+  --pale: #e5ebf2;
+  --ink: #263445;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f1f4f8;
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.popup-shell {
+  width: 350px;
+  max-height: 600px;
+  overflow: auto;
+  padding: 1rem;
+  background: linear-gradient(180deg, #fff 0%, #f1f4f8 100%);
+}
+
+.brand-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.brand-mark {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 0.7rem;
+  background: var(--navy);
+  color: #fff;
+  font-weight: 800;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+header p {
+  margin: 0.2rem 0 0;
+  color: #52677d;
+  font-size: 0.8rem;
+}
+
+.tool-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+.tool-btn {
+  min-height: 2.6rem;
+  appearance: none;
+  border: 1px solid #b5c3d0;
+  border-radius: 0.65rem;
+  background: #fff;
+  color: var(--navy);
+  padding: 0.55rem 0.4rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tool-btn:hover,
+.tool-btn.active,
+.tool-btn[aria-pressed="true"] {
+  border-color: var(--blue-gray);
+  background: var(--pale);
+}
+
+.tool-btn:focus-visible,
+select:focus-visible {
+  outline: 3px solid #a55000;
+  outline-offset: 2px;
+}
+
+.tool-btn.reset {
+  grid-column: span 2;
+  background: var(--navy);
+  color: #fff;
+}
+
+.speech-speed {
+  display: flex;
+  min-height: 2.6rem;
+  grid-column: span 2;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  border: 1px solid #b5c3d0;
+  border-radius: 0.65rem;
+  background: #fff;
+  padding: 0.5rem 0.65rem;
+  font-weight: 700;
+}
+
+.speech-speed select {
+  min-height: 2rem;
+  border: 1px solid #b5c3d0;
+  border-radius: 0.45rem;
+  background: #fff;
+  color: var(--ink);
+  padding: 0.3rem;
+}
+
+#extensionStatus {
+  min-height: 1.25rem;
+  margin: 0.75rem 0 0;
+  color: #34495e;
+  font-size: 0.82rem;
+}

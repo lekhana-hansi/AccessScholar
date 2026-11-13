@@ -1,0 +1,587 @@
+[
+  {
+    "id": "india-national-scholarship-portal",
+    "name": "National Scholarship Portal",
+    "organization": "Government of India",
+    "country": "India",
+    "url": "https://scholarships.gov.in/",
+    "applicationHosts": [
+      "scholarships.gov.in"
+    ],
+    "sourceType": "government_portal",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official government scholarship portal; records verified against published scheme guidelines.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "india-depwd-schemes",
+    "name": "Department of Empowerment of Persons with Disabilities",
+    "organization": "Ministry of Social Justice and Empowerment, Government of India",
+    "country": "India",
+    "url": "https://depwd.gov.in/",
+    "applicationHosts": [
+      "depwd.gov.in",
+      "scholarships.gov.in"
+    ],
+    "sourceType": "government_information",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official scheme guidelines for students with disabilities under DEPwD.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "india-aicte",
+    "name": "All India Council for Technical Education",
+    "organization": "Ministry of Education, Government of India",
+    "country": "India",
+    "url": "https://www.aicte-india.org/",
+    "applicationHosts": [
+      "aicte-india.org",
+      "scholarships.gov.in"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official technical education scholarship schemes for girls, differently-abled, and orphan students.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "india-ugc",
+    "name": "University Grants Commission",
+    "organization": "Ministry of Education, Government of India",
+    "country": "India",
+    "url": "https://www.ugc.gov.in/",
+    "applicationHosts": [
+      "ugc.gov.in",
+      "scholarships.gov.in",
+      "ugcnet.nta.ac.in"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official university grants, fellowships, and higher education awards.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "india-pmrf",
+    "name": "Prime Minister's Research Fellows Scheme",
+    "organization": "Ministry of Education, Government of India",
+    "country": "India",
+    "url": "https://www.pmrf.in/",
+    "applicationHosts": [
+      "pmrf.in"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official doctoral research fellowship scheme in premier institutions (IITs, IISc, IISERs).",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "india-dst-inspire",
+    "name": "Department of Science and Technology — INSPIRE",
+    "organization": "Ministry of Science and Technology, Government of India",
+    "country": "India",
+    "url": "https://online-inspire.gov.in/",
+    "applicationHosts": [
+      "online-inspire.gov.in",
+      "dst.gov.in"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official science and research talent scholarship schemes.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "india-nos-msje",
+    "name": "National Overseas Scholarship — MoSJE",
+    "organization": "Ministry of Social Justice and Empowerment, Government of India",
+    "country": "India",
+    "url": "https://nosmsje.gov.in/",
+    "applicationHosts": [
+      "nosmsje.gov.in"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official overseas scholarship portal for low-income and marginalized students.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "usa-federal-student-aid",
+    "name": "Federal Student Aid",
+    "organization": "U.S. Department of Education",
+    "country": "United States",
+    "url": "https://studentaid.gov/",
+    "applicationHosts": [
+      "studentaid.gov"
+    ],
+    "sourceType": "government_information",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official United States federal student financial assistance portal.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "usa-fulbright",
+    "name": "Fulbright Program",
+    "organization": "U.S. Department of State, Bureau of Educational and Cultural Affairs",
+    "country": "United States",
+    "url": "https://fulbrightprogram.org/",
+    "applicationHosts": [
+      "fulbrightprogram.org",
+      "foreign.fulbrightonline.org",
+      "apply.iie.org"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official flagship international educational exchange program sponsored by the U.S. government.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "usa-humphrey",
+    "name": "Hubert H. Humphrey Fellowship Program",
+    "organization": "U.S. Department of State & IIE",
+    "country": "United States",
+    "url": "https://www.humphreyfellowship.org/",
+    "applicationHosts": [
+      "humphreyfellowship.org",
+      "apply.iie.org"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official mid-career professional development fellowship sponsored by the U.S. Department of State.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "usa-pdsoros",
+    "name": "Paul & Daisy Soros Fellowships for New Americans",
+    "organization": "Paul & Daisy Soros Foundation",
+    "country": "United States",
+    "url": "https://www.pdsoros.org/",
+    "applicationHosts": [
+      "pdsoros.org"
+    ],
+    "sourceType": "foundation",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official graduate fellowship for immigrants and children of immigrants in the United States.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "usa-lime-connect",
+    "name": "Lime Connect Scholarships for Students with Disabilities",
+    "organization": "Lime Connect Inc.",
+    "country": "United States",
+    "url": "https://www.limeconnect.com/",
+    "applicationHosts": [
+      "limeconnect.com"
+    ],
+    "sourceType": "foundation",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official corporate and foundation scholarship partner for university students with disabilities.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "usa-aahd",
+    "name": "American Association on Health and Disability",
+    "organization": "American Association on Health and Disability",
+    "country": "United States",
+    "url": "https://aahd.us/",
+    "applicationHosts": [
+      "aahd.us"
+    ],
+    "sourceType": "foundation",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official national disability scholarship dedicated to health and disability studies.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "australia-awards",
+    "name": "Australia Awards",
+    "organization": "Department of Foreign Affairs and Trade (DFAT)",
+    "country": "Australia",
+    "url": "https://www.dfat.gov.au/people-to-people/australia-awards",
+    "applicationHosts": [
+      "dfat.gov.au",
+      "oasis.dfat.gov.au"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official Australian Government international development scholarships.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "australia-education-rtp",
+    "name": "Australian Government Research Training Program",
+    "organization": "Australian Government Department of Education",
+    "country": "Australia",
+    "url": "https://www.education.gov.au/research-block-grants/research-training-program",
+    "applicationHosts": [
+      "education.gov.au",
+      "unimelb.edu.au",
+      "sydney.edu.au",
+      "anu.edu.au"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official Commonwealth postgraduate research training scheme across participating Australian universities.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "australia-unimelb",
+    "name": "University of Melbourne Scholarships",
+    "organization": "University of Melbourne",
+    "country": "Australia",
+    "url": "https://scholarships.unimelb.edu.au/",
+    "applicationHosts": [
+      "unimelb.edu.au"
+    ],
+    "sourceType": "university",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official university research and coursework scholarship listings.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "australia-sydney",
+    "name": "University of Sydney Scholarships",
+    "organization": "University of Sydney",
+    "country": "Australia",
+    "url": "https://www.sydney.edu.au/scholarships/",
+    "applicationHosts": [
+      "sydney.edu.au"
+    ],
+    "sourceType": "university",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official university international merit and equity awards.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "australia-anu",
+    "name": "Australian National University Scholarships",
+    "organization": "Australian National University",
+    "country": "Australia",
+    "url": "https://www.anu.edu.au/study/scholarships",
+    "applicationHosts": [
+      "anu.edu.au"
+    ],
+    "sourceType": "university",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official national university international awards.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "uk-chevening",
+    "name": "Chevening Scholarships",
+    "organization": "Foreign, Commonwealth & Development Office (FCDO)",
+    "country": "United Kingdom",
+    "url": "https://www.chevening.org/",
+    "applicationHosts": [
+      "chevening.org"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official UK government global scholarship programme for future leaders.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "uk-commonwealth",
+    "name": "Commonwealth Scholarships",
+    "organization": "Commonwealth Scholarship Commission in the UK (CSC)",
+    "country": "United Kingdom",
+    "url": "https://cscuk.fcdo.gov.uk/",
+    "applicationHosts": [
+      "cscuk.fcdo.gov.uk"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official Commonwealth awards for international master's and doctoral students.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "uk-great",
+    "name": "GREAT Scholarships",
+    "organization": "British Council & UK GREAT Britain Campaign",
+    "country": "United Kingdom",
+    "url": "https://www.britishcouncil.org/study-work-abroad/in-uk/great-scholarships",
+    "applicationHosts": [
+      "britishcouncil.org"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official partnership scholarships between the British Council and participating UK universities.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "uk-rhodes",
+    "name": "Rhodes Trust Scholarships",
+    "organization": "The Rhodes Trust / University of Oxford",
+    "country": "United Kingdom",
+    "url": "https://www.rhodeshouse.ox.ac.uk/",
+    "applicationHosts": [
+      "rhodeshouse.ox.ac.uk"
+    ],
+    "sourceType": "foundation",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official global postgraduate awards tenable at the University of Oxford.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "uk-gates-cambridge",
+    "name": "Gates Cambridge Scholarships",
+    "organization": "Gates Cambridge Trust / University of Cambridge",
+    "country": "United Kingdom",
+    "url": "https://www.gatescambridge.org/",
+    "applicationHosts": [
+      "gatescambridge.org"
+    ],
+    "sourceType": "foundation",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official prestigious postgraduate scholarships for study at the University of Cambridge.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "germany-daad",
+    "name": "DAAD — German Academic Exchange Service",
+    "organization": "Deutscher Akademischer Austauschdienst",
+    "country": "Germany",
+    "url": "https://www.daad.de/en/",
+    "applicationHosts": [
+      "daad.de"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official German national agency for international academic exchange funding.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "germany-deutschlandstipendium",
+    "name": "Deutschlandstipendium",
+    "organization": "Federal Ministry of Education and Research (BMBF)",
+    "country": "Germany",
+    "url": "https://www.deutschlandstipendium.de/",
+    "applicationHosts": [
+      "deutschlandstipendium.de"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official German national public-private partnership scholarship programme.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "germany-boell",
+    "name": "Heinrich Böll Foundation Scholarships",
+    "organization": "Heinrich Böll Stiftung",
+    "country": "Germany",
+    "url": "https://www.boell.de/en/scholarships",
+    "applicationHosts": [
+      "boell.de"
+    ],
+    "sourceType": "foundation",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official foundation scholarship for German and international graduate students.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "eu-erasmus-plus",
+    "name": "Erasmus+ and Erasmus Mundus",
+    "organization": "European Commission / EACEA",
+    "country": "European Union",
+    "url": "https://erasmus-plus.ec.europa.eu/",
+    "applicationHosts": [
+      "erasmus-plus.ec.europa.eu",
+      "ec.europa.eu"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official European Union programme for education, training, youth and sport.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "france-campus-france",
+    "name": "Campus France — Eiffel Excellence Scholarships",
+    "organization": "French Ministry for Europe and Foreign Affairs & Campus France",
+    "country": "France",
+    "url": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
+    "applicationHosts": [
+      "campusfrance.org"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official French Government excellence scholarship programme for international master and PhD candidates.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "netherlands-nuffic",
+    "name": "NL Scholarship (Holland Scholarship)",
+    "organization": "Nuffic & Dutch Ministry of Education, Culture and Science",
+    "country": "Netherlands",
+    "url": "https://www.studyinnl.org/",
+    "applicationHosts": [
+      "studyinnl.org",
+      "nuffic.nl"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official Dutch government scholarship programme for international students.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "sweden-si",
+    "name": "Swedish Institute Scholarships for Global Professionals",
+    "organization": "Swedish Institute / Ministry for Foreign Affairs",
+    "country": "Sweden",
+    "url": "https://si.se/en/apply/scholarships/",
+    "applicationHosts": [
+      "si.se"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official Swedish government scholarship programme for global master's degree studies.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "finland-edufi",
+    "name": "Finland Scholarships",
+    "organization": "Finnish National Agency for Education (EDUFI)",
+    "country": "Finland",
+    "url": "https://www.studyinfinland.fi/",
+    "applicationHosts": [
+      "studyinfinland.fi"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official Finnish government and higher education scholarship scheme.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "ireland-hea",
+    "name": "Government of Ireland International Education Scholarships",
+    "organization": "Higher Education Authority (HEA), Ireland",
+    "country": "Ireland",
+    "url": "https://hea.ie/",
+    "applicationHosts": [
+      "hea.ie"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official Irish state scholarship scheme for high-calibre international students.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "singapore-singa",
+    "name": "Singapore International Graduate Award (SINGA)",
+    "organization": "Agency for Science, Technology and Research (A*STAR)",
+    "country": "Singapore",
+    "url": "https://www.a-star.edu.sg/",
+    "applicationHosts": [
+      "a-star.edu.sg"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official collaboration between A*STAR, NTU, NUS, and SUTD for international PhD research.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "singapore-sutd",
+    "name": "SUTD Graduate Fellowships",
+    "organization": "Singapore University of Technology and Design",
+    "country": "Singapore",
+    "url": "https://www.sutd.edu.sg/",
+    "applicationHosts": [
+      "sutd.edu.sg"
+    ],
+    "sourceType": "university",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official autonomous university graduate research fellowships in Singapore.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "japan-mext",
+    "name": "MEXT Japanese Government Scholarships",
+    "organization": "Ministry of Education, Culture, Sports, Science and Technology (MEXT)",
+    "country": "Japan",
+    "url": "https://www.studyinjapan.go.jp/",
+    "applicationHosts": [
+      "studyinjapan.go.jp",
+      "mext.go.jp"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official Japanese Ministry of Education scholarships for international undergraduate and research scholars.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "south-korea-niied",
+    "name": "Global Korea Scholarship (GKS)",
+    "organization": "National Institute for International Education (NIIED), Ministry of Education",
+    "country": "South Korea",
+    "url": "https://www.studyinkorea.go.kr/",
+    "applicationHosts": [
+      "studyinkorea.go.kr"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official Korean government scholarship program for international students.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "canada-vanier",
+    "name": "Vanier Canada Graduate Scholarships",
+    "organization": "Government of Canada",
+    "country": "Canada",
+    "url": "https://vanier.gc.ca/",
+    "applicationHosts": [
+      "vanier.gc.ca"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official Canadian Government prestigious doctoral awards program.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  },
+  {
+    "id": "new-zealand-mfat",
+    "name": "Manaaki New Zealand Scholarships",
+    "organization": "Ministry of Foreign Affairs and Trade (MFAT)",
+    "country": "New Zealand",
+    "url": "https://www.nzscholarships.govt.nz/",
+    "applicationHosts": [
+      "nzscholarships.govt.nz"
+    ],
+    "sourceType": "government_program",
+    "integrationMethod": "manual_verification",
+    "accessStatus": "Official New Zealand government tertiary and postgraduate development scholarships.",
+    "enabled": true,
+    "lastVerifiedAt": "2026-11-12T10:00:00.000Z"
+  }
+]
